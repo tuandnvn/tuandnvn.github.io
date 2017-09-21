@@ -1,62 +1,85 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!-- saved from url=(0046)http://users.ecs.soton.ac.uk/ltt08r/index.html -->
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Tuan Do's personal webpage</title>
     <!-- Bootstrap -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="./css2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css2/css/bootstrap-theme.min.css" rel="stylesheet">
 </head>
+
 <body>
     <!-- Insert your content here -->
-    
-<div class="container-fluid">
-    <div class="row-fluid">
-        <div class="span1">
-        </div>
-        <div class="span10">
-            <div class="navbar">
-                <div class="navbar-inner">
-                    <a class="brand">
-                        <font face="Georgia, Arial, Garamond">
-                        <font size="4">Tuan Do</font> <br>
-                        <font size="3">tuandn at brandeis.edu</font>
-                        </font>
-                    </a>
-                    <ul class="nav">
-                        <li class="divider-vertical"></li>
-                        <li><a href="./index.html"><font face="Georgia, Arial, Garamond">Home</font></a></li>
-                        <li class="divider-vertical"></li>
-                        <li class="active"><a href="./bio.html"><font face="Georgia, Arial, Garamond">CV</font></a></li>
-                        <li class="divider-vertical"></li>
-                        <li><a href="./research.html"><font face="Georgia, Arial, Garamond">Research</font></a></li>
-                        <li class="divider-vertical"></li>
-                        <li><a href="./publications.html"><font face="Georgia, Arial, Garamond">Publications</font></a></li>
-                        <li class="divider-vertical"></li>
-                        <li><a href="./teaching.html"><font face="Georgia, Arial, Garamond">Teaching</font></a></li>
-                        <li class="divider-vertical"></li>
-                        <li><a href="./misc.html"><font face="Georgia, Arial, Garamond">Projects</font></a></li>
-                        <li class="divider-vertical"></li>
-                    </ul>
-                </div>
+    <div class="container">
+        <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+            <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">Tuan Do Personal Website</a>
+            <div class="navbar-collapse collapse" id="navbarsExampleDefault" aria-expanded="false" style="">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">
+                            <font face="Georgia, Arial, Garamond">Home</font>
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./bio.html">
+                            <font face="Georgia, Arial, Garamond">CV</font>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./research.html">
+                            <font face="Georgia, Arial, Garamond">Research</font>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./publications.html">
+                            <font face="Georgia, Arial, Garamond">Publications</font>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./teaching.html">
+                            <font face="Georgia, Arial, Garamond">Teaching</font>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./projects.html" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item" href="./projects.html">Research</a>
+                            <a class="dropdown-item" href="./projects-student.html">Student</a>
+                            <a class="dropdown-item" href="./projects-other.html">Others</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
-            <div class="container-fluid">
-                <div class="row-fluid">
-                    <div class="span2">
-                        <!--Sidebar content-->
-                        <img src="./images/profile.jpg" alt="Tuan&#39;s profile picture">
-                    </div>
-                    <div class="span8">
-                        <!--Body content-->
-                        <font face="Georgia, Arial, Garamond">
-                        <b>Education</b>
-                        <hr width="300">
-                        <table border="0" width="800">
-                            <tbody><tr>
+        </nav>
+    </div>
+    <div id="fix-for-navbar-fixed-top-spacing" style="height: 72px;">&nbsp;</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-2" style="padding-left: 0px;  padding-right: 0px;">
+                <!--Sidebar content-->
+                <img src="./images/profile.jpg" class="img-fluid">
+            </div>
+            <div class="col-10">
+                <!--Body content-->
+                <font face="Georgia, Arial, Garamond">
+                    <b>Education</b>
+                    <hr width="300">
+                    <table border="0" width="800">
+                        <tbody>
+                            <tr>
                                 <td width="200" valign="top">2014 - </td>
                                 <td>
-                                    Brandeis University <br>
+                                    Brandeis University
+                                    <br>
                                     <b>Phd candidate in Computer Science</i> <br>
-                                    <b>Dissertation topic</b> <i><a>Learning to distinguish and perform complex spatial-temporal activities using sequential modeling by observing humans</a></i> <br>
-                                    Supervisor: <a href="http://neural.hit.bme.hu/levendov/">James Pustejovsky</a> 
+                                    <b>Dissertation topic</b> <i><a>Learning to distinguish and perform complex spatial-temporal activities using sequential modeling by observing humans</a></i>
+                                    <br> Supervisor: <a href="http://neural.hit.bme.hu/levendov/">James Pustejovsky</a>
                                     <br>
                                     <br>
                                 </td>
@@ -64,7 +87,8 @@
                             <tr>
                                 <td width="200" valign="top">2012 - 2014</td>
                                 <td>
-                                    Brandeis University <br>
+                                    Brandeis University
+                                    <br>
                                     <b>MA degree in Computer Science</i> <br>
                                     <b>GPA: 3.97 / 4.0 <br>
                                     <br>
@@ -82,84 +106,109 @@
                             </tr>
                         </tbody></table>
                         <b>Awards</b>
-                        <hr width="300">
-                        <table border="0" width="800">
-                            <tbody>
-                            <tr>
-                                <td width="200" valign="top"> 2011</td>
-                                <td> <b>Ha Noi Valedictorian Award</b><br></td>
-                            </tr>
-                            <tr>
-                                <td width="200" valign="top"> 2008-09, 2010-11</td>
-                                <td> <b>Vietnam National University Outstanding Student</b><br> <i><b>2 times</b></i> <br></td>
-                            </tr>
-                            <tr>
-                                <td width="200" valign="top"> 2008, 2010</td>
-                                <td> <b>Regional ACM/ICPC</b><br> <i><b> Third prizes</b></i> <br></td>
-                            </tr>
-                            <tr>
-                                <td width="200" valign="top"> 2010</td>
-                                <td><b>Vietnam Golden Award for Science and Technology</b> awarded to 10 young people each year <br> </td>
-                            </tr>
-                            <tr>
-                                <td width="200" valign="top"> 2008, 2009, 2010</td>
-                                <td><b>National mathematics prizes</b> <br><br></td> 
-                            </tr>
-                        </tbody></table>
-                        <b>Work Experience</b>
-                        <hr width="300">
-                        <table border="0" width="800">
-                            <tbody>
-                            <tr>
-                                <td width="200" valign="top">May 2017 - August 2017</td>
-                                <td> Worked as a technology consultant for <a href="http://kapitalamc.winvestor.vn/">Kapital asset management consultancy company</a> in Vietnam - a startup providing financial consultancies to individual customers by detecting market signals through sentiment analysis on crawled market reviews <br><br> </td>
-                            </tr>
-                            <tr>
-                                <td width="200" valign="top">Jun 2014 - August 2014</td>
-                                <td> Data Analyst at Brandeis University: Analyzed wikipedia and amazone reviews data to create machine learning problems for Big Data class <br><br> </td>
-                            </tr>
-                            <tr>
-                                <td width="200" valign="top">October 2011 -  July 2012</td>
-                                <td> Working for a start-up in Vietnam specializing in customer relationship management <br><br></td>
-                            </tr>
-                        </tbody></table>
-                        <b>Teaching</b>
-                        <hr width="300">
-                        <table border="0" width="800">
-                            <tbody>
-                            <tr>
-                                <td width="200" valign="top">2012 - Now </td>
-                                <td>
-                                    Teaching assistant for the following courses:<br>
-                                    <b>Data structures and Algorithms</b> <br>
-
-                                    <b> Advanced Algorithm</b> <br> 
-
-                                    <b> Introduction to Java Programming</b>  <br>
-
-                                    <b> Computer System Structures and Organization</b>  <br> 
-
-                                    <b> Scientific Data Processing Using MATLAB </b> <br>
-
-                                    <b> Introduction to Big Data analysis </b> Created quizzes, assignments and administered clusters on Yarn/Hadoop/Mahout and Spark. Assignments I designed include for example: collaborative learning on Amazon reviews dataset to suggest new item for users using Spark.  <br> 
-
-                                    <b> Fundamentals of Computational Linguistics </b> created assignments, gave lectures and lab sessions on fundamental statistics and neural network methods. <br> 
-
-                                    <b> Computational Semantics </b>created assignments, gave tutorials and lab sessions on Haskell.  <br> 
+                                    <hr width="300">
+                                    <table border="0" width="800">
+                                        <tbody>
+                                            <tr>
+                                                <td width="200" valign="top"> 2011</td>
+                                                <td> <b>Ha Noi Valedictorian Award</b>
+                                                    <br>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="200" valign="top"> 2008-09, 2010-11</td>
+                                                <td> <b>Vietnam National University Outstanding Student</b>
+                                                    <br> <i><b>2 times</b></i>
+                                                    <br>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="200" valign="top"> 2008, 2010</td>
+                                                <td> <b>Regional ACM/ICPC</b>
+                                                    <br> <i><b> Third prizes</b></i>
+                                                    <br>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="200" valign="top"> 2010</td>
+                                                <td><b>Vietnam Golden Award for Science and Technology</b> awarded to 10 young people each year
+                                                    <br> </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="200" valign="top"> 2008, 2009, 2010</td>
+                                                <td><b>National mathematics prizes</b>
+                                                    <br>
+                                                    <br>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <b>Work Experience</b>
+                                    <hr width="300">
+                                    <table border="0" width="800">
+                                        <tbody>
+                                            <tr>
+                                                <td width="200" valign="top">May 2017 - August 2017</td>
+                                                <td> Worked as a technology consultant for <a href="http://kapitalamc.winvestor.vn/">Kapital asset management consultancy company</a> in Vietnam - a startup providing financial consultancies to individual customers by detecting market signals through sentiment analysis on crawled market reviews
+                                                    <br>
+                                                    <br> </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="200" valign="top">Jun 2014 - August 2014</td>
+                                                <td> Data Analyst at Brandeis University: Analyzed wikipedia and amazone reviews data to create machine learning problems for Big Data class
+                                                    <br>
+                                                    <br> </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="200" valign="top">October 2011 - July 2012</td>
+                                                <td> Working for a start-up in Vietnam specializing in customer relationship management
+                                                    <br>
+                                                    <br>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <b>Teaching</b>
+                                    <hr width="300">
+                                    <table border="0" width="800">
+                                        <tbody>
+                                            <tr>
+                                                <td width="200" valign="top">2012 - Now </td>
+                                                <td>
+                                                    Teaching assistant for the following courses:
+                                                    <br>
+                                                    <b>Data structures and Algorithms</b>
+                                                    <br>
+                                                    <b> Advanced Algorithm</b>
+                                                    <br>
+                                                    <b> Introduction to Java Programming</b>
+                                                    <br>
+                                                    <b> Computer System Structures and Organization</b>
+                                                    <br>
+                                                    <b> Scientific Data Processing Using MATLAB </b>
+                                                    <br>
+                                                    <b> Introduction to Big Data analysis </b> Created quizzes, assignments and administered clusters on Yarn/Hadoop/Mahout and Spark. Assignments I designed include for example: collaborative learning on Amazon reviews dataset to suggest new item for users using Spark.
+                                                    <br>
+                                                    <b> Fundamentals of Computational Linguistics </b> created assignments, gave lectures and lab sessions on fundamental statistics and neural network methods.
+                                                    <br>
+                                                    <b> Computational Semantics </b>created assignments, gave tutorials and lab sessions on Haskell.
+                                                    <br>
+                                                    <br>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <font size="2"><i>Note: A full CV with references is available on request</i></font>.
                                     <br>
-                                </td>
-                            </tr>
-                        </tbody></table>
-                        <font size="2"><i>Note: A full CV with references is available on request</i></font>.
-                        <br><br><br>
-                        </font>
-                    </div>
-                </div>
+                                    <br>
+                                    <br>
+                </font>
             </div>
         </div>
-        <div class="span1">
-        </div>
     </div>
-</div>
-<script src="./css/bootstrap.min.js.download"></script>
-</body></html>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="./css2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

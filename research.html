@@ -1,103 +1,131 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!-- saved from url=(0046)http://users.ecs.soton.ac.uk/ltt08r/index.html -->
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Tuan Do's personal webpage</title>
     <!-- Bootstrap -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="./css2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css2/css/bootstrap-theme.min.css" rel="stylesheet">
 </head>
+
 <body>
     <!-- Insert your content here -->
-    
-<div class="container-fluid">
-    <div class="row-fluid">
-        <div class="span1">
-        </div>
-        <div class="span10">
-            <div class="navbar">
-                <div class="navbar-inner">
-                    <a class="brand">
-                        <font face="Georgia, Arial, Garamond">
-                        <font size="4">Tuan Do</font> <br>
-                        <font size="3">tuandn at brandeis.edu</font>
-                        </font>
-                    </a>
-                    <ul class="nav">
-                        <li class="divider-vertical"></li>
-                        <li><a href="./index.html"><font face="Georgia, Arial, Garamond">Home</font></a></li>
-                        <li class="divider-vertical"></li>
-                        <li><a href="./bio.html"><font face="Georgia, Arial, Garamond">CV</font></a></li>
-                        <li class="divider-vertical"></li>
-                        <li class="active"><a href="./research.html"><font face="Georgia, Arial, Garamond">Research</font></a></li>
-                        <li class="divider-vertical"></li>
-                        <li><a href="./publications.html"><font face="Georgia, Arial, Garamond">Publications</font></a></li>
-                        <li class="divider-vertical"></li>
-                        <li><a href="./teaching.html"><font face="Georgia, Arial, Garamond">Teaching</font></a></li>
-                        <li class="divider-vertical"></li>
-                        <li><a href="./misc.html"><font face="Georgia, Arial, Garamond">Projects</font></a></li>
-                        <li class="divider-vertical"></li>
-                    </ul>
-                </div>
+    <div class="container">
+        <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+            <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">Tuan Do Personal Website</a>
+            <div class="navbar-collapse collapse" id="navbarsExampleDefault" aria-expanded="false" style="">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">
+                            <font face="Georgia, Arial, Garamond">Home</font>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./bio.html">
+                            <font face="Georgia, Arial, Garamond">CV</font>
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./research.html">
+                            <font face="Georgia, Arial, Garamond">Research</font>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./publications.html">
+                            <font face="Georgia, Arial, Garamond">Publications</font>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./teaching.html">
+                            <font face="Georgia, Arial, Garamond">Teaching</font>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./projects.html" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item" href="./projects.html">Research</a>
+                            <a class="dropdown-item" href="./projects-student.html">Student</a>
+                            <a class="dropdown-item" href="./projects-other.html">Others</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
-            <div class="container-fluid">
-                <div class="row-fluid">
-                    <div class="span2">
-                        <!--Sidebar content-->
-                        <img src="./images/profile.jpg" alt="Tuan&#39;s profile picture">
-                    </div>
-                    <div class="span8">
-                        <!--Body content-->
-                        <font face="Georgia, Arial, Garamond">
-                        <hr width="300">
-                        <b>Learn to distinguish and perform human actions.</b><br>    
-                        <p align="justify">
-                        My main research area lies on the border between natural language understanding and visual event representation. My investigation is based on a simple but very difficult question to answer: <i>Given a simple linguistic input: "Can you slide me that", how can a person, using his perception of surrouding environment and his knowledge of object properties and communicative common ground, can execute the act as intended by the other party. Can an AI agent perform the same thing? </i> More specifically, what I'm interested is on the mapping among linguistic, visual and programmatic representations of events.   
-                        For more details, see:<br>
-                        </p><ul>
-                            <li><a href="https://sigsem.uvt.nl/isa12/ISA12Proceedings.pdf">ISA 2016 paper</a></li> 
-                            In this paper, we presented ECAT, an event annotation toolkit that we used to annotate captured videos of human-object interaction with linguistic and programmatic description.<br>
-                            <li><a href="https://www.elen.ucl.ac.be/Proceedings/esann/esannpdf/es2017-34.pdf">ESANN 2017 paper</a> or <a href="http://qrg.northwestern.edu/qr2017/papers/QR2017_paper_7.pdf">QR 2017 paper</a></li>
-                            In these papers, we presented a common framework for learning to distinguish events using their visual representation with sequential modeling.
-                            <li>Current work</li>
-                            I target to learn programmatic representation of events so that they can be performed by simulated agents.
-                        </ul>    
-                        <p></p>
-                        <hr width="300">
-                        <b>Computational linguistics</b><br><br>
-                        <p align="justify">
-                        <i>Word vector distributed representation</i> I have interest in the distributed representation of words after the arrival of Word2Vec toolkit. In our lab, we did a lot of experiments to either modify Word2vec to serve our purpose of representing and disambiguating event-verbs. 
-                        </p>
-                        <p align="justify">
-                        In <a href="./misc/CPA_paper.pdf">my paper submitted to EMNLP 2015</a>, I proposed a modified model, called Skipgram Backward-Forward that utilizes thematic ordering of verb arguments to create better representations for verbs. The resulted verb vectors are used in the task of verb disambiguation according to Corpus Pattern Analysis theory and corpus. 
-                        </p>
-                        <p align="justify">
-                        In another line of research, we looked at the performance of word2vec on different semantic analogy tasks along the dimension of syntagmatic-paradigmatic word relation (a point of view taken from Ferdinand de Saussure and other semioticians from the beginning of 20th century).
-                        </p><br>
-                        <p align="justify">
-                        <i>Sentiment analysis</i> of market reviews in Vietnamese. This is an ongoing work that started when I was working with <a href="http://kapitalamc.winvestor.vn/">KapitalAMC</a> as their technological partner. We're looking to provide to our platform's customers a better picture of market trends. Currently we have a team working on crawling from different sources (forums, social network, news), another team working on annotating them for positive or negative judgement on phrasal level, and another to learn to predict sentiment toward different stocks.
-                        </p><br>
-                        <p align="justify">
-                        <i>Temporal expression and event ordering</i> one of my early research experience in Brandeis is on ordering of event and time expressions. Using <a href="http://www.timeml.org/tarsqi/toolkit/index.html">Tarsqi toolkit</a> as pipeline framework for processing, I implemented an SVM classifier using tree kernel to achieve a state-of-the-art result.
-                        </p>
-                        <hr width="300">
-                        <b>Other research interests</b><br><br>
-                        <p align="justify">
-                        <i>Gesture and sign language</i> My first research experience is on a project on Vietnamese sign language initiated by our Ministry of Science and Technology in 2010. We collected video captures of language signers and applied ML methods to produce linguistic outputs. We experimented with feature extraction methods including background removal, hand and face blobs detection, then we tried HMM and CRF to learn translation. The project received second prize in the research competition for students in my undergrad university. 
-                        </p>
-                        <p align="justify">
-                        In the context of Communication with Computer (CwC) - a DARPA project, our lab is currently investigating gesture semantics as interpreted programs and gesture grammar as state transition machines. We're currently modeling gesture as one modality of multi-modal communication between human and computer. For more information, please refer to our lab papers <a href="https://www.lirmm.fr/iwcs2017/IWCS2017program.html">Communicating and Acting: Understanding Gesture in Simulation Semantics - Poster in IWCS 2017</a> or <a href="http://www.cs.utexas.edu/~jsinapov/AAAI-SSS-2017/paper/Pustejovsky_AAAI_SSS_2017.pdf">Object Embodiment in a Multimodal Simulation</a>.
-                        </p><br> 
-                        <p align="justify">
-                        <i>Manual and automated descriptions for movie scenes</i>.
-                        </p> 
-                        <br><br><br>
-                        </font>
-                    </div>
-                </div>
+        </nav>
+    </div>
+    <div id="fix-for-navbar-fixed-top-spacing" style="height: 72px;">&nbsp;</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-2" style="padding-left: 0px;  padding-right: 0px;">
+                <!--Sidebar content-->
+                <img src="./images/profile.jpg" class="img-fluid">
             </div>
-        </div>
-        <div class="span1">
+            <div class="col-10">
+                <hr>
+                <b>Learn to distinguish and perform human actions.</b>
+                <br>
+                <p align="justify">
+                    My main research area lies on the border between natural language understanding and visual event representation. My investigation is based on a simple but very difficult question to answer: <i>Given a simple linguistic input: "Can you slide me that", how can a person, using his perception of surrouding environment and his knowledge of object properties and communicative common ground, can execute the act as intended by the other party. Can an AI agent perform the same thing? </i> More specifically, what I'm interested is on the mapping among linguistic, visual and programmatic representations of events. For more details, see:
+                    <br>
+                </p>
+                <ul>
+                    <li><a href="https://sigsem.uvt.nl/isa12/ISA12Proceedings.pdf">ISA 2016 paper</a></li>
+                    In this paper, we presented ECAT, an event annotation toolkit that we used to annotate captured videos of human-object interaction with linguistic and programmatic description.
+                    <br>
+                    <li><a href="https://www.elen.ucl.ac.be/Proceedings/esann/esannpdf/es2017-34.pdf">ESANN 2017 paper</a> or <a href="http://qrg.northwestern.edu/qr2017/papers/QR2017_paper_7.pdf">QR 2017 paper</a></li>
+                    In these papers, we presented a common framework for learning to distinguish events using their visual representation with sequential modeling.
+                    <li>Current work</li>
+                    I target to learn programmatic representation of events so that they can be performed by simulated agents.
+                </ul>
+                <p></p>
+                <hr>
+                <b>Computational linguistics</b>
+                <br>
+                <br>
+                <p align="justify">
+                    <i>Word vector distributed representation</i> I have interest in the distributed representation of words after the arrival of Word2Vec toolkit. In our lab, we did a lot of experiments to either modify Word2vec to serve our purpose of representing and disambiguating event-verbs.
+                </p>
+                <p align="justify">
+                    In <a href="./misc/CPA_paper.pdf">my paper submitted to EMNLP 2015</a>, I proposed a modified model, called Skipgram Backward-Forward that utilizes thematic ordering of verb arguments to create better representations for verbs. The resulted verb vectors are used in the task of verb disambiguation according to Corpus Pattern Analysis theory and corpus.
+                </p>
+                <p align="justify">
+                    In another line of research, we looked at the performance of word2vec on different semantic analogy tasks along the dimension of syntagmatic-paradigmatic word relation (a point of view taken from Ferdinand de Saussure and other semioticians from the beginning of 20th century).
+                </p>
+                <br>
+                <p align="justify">
+                    <i>Sentiment analysis</i> of market reviews in Vietnamese. This is an ongoing work that started when I was working with <a href="http://kapitalamc.winvestor.vn/">KapitalAMC</a> as their technological partner. We're looking to provide to our platform's customers a better picture of market trends. Currently we have a team working on crawling from different sources (forums, social network, news), another team working on annotating them for positive or negative judgement on phrasal level, and another to learn to predict sentiment toward different stocks.
+                </p>
+                <br>
+                <p align="justify">
+                    <i>Temporal expression and event ordering</i> one of my early research experience in Brandeis is on ordering of event and time expressions. Using <a href="http://www.timeml.org/tarsqi/toolkit/index.html">Tarsqi toolkit</a> as pipeline framework for processing, I implemented an SVM classifier using tree kernel to achieve a state-of-the-art result.
+                </p>
+                <hr>
+                <b>Other research interests</b>
+                <br>
+                <br>
+                <p align="justify">
+                    <i>Gesture and sign language</i> My first research experience is on a project on Vietnamese sign language initiated by our Ministry of Science and Technology in 2010. We collected video captures of language signers and applied ML methods to produce linguistic outputs. We experimented with feature extraction methods including background removal, hand and face blobs detection, then we tried HMM and CRF to learn translation. The project received second prize in the research competition for students in my undergrad university.
+                </p>
+                <p align="justify">
+                    In the context of Communication with Computer (CwC) - a DARPA project, our lab is currently investigating gesture semantics as interpreted programs and gesture grammar as state transition machines. We're currently modeling gesture as one modality of multi-modal communication between human and computer. For more information, please refer to our lab papers <a href="https://www.lirmm.fr/iwcs2017/IWCS2017program.html">Communicating and Acting: Understanding Gesture in Simulation Semantics - Poster in IWCS 2017</a> or <a href="http://www.cs.utexas.edu/~jsinapov/AAAI-SSS-2017/paper/Pustejovsky_AAAI_SSS_2017.pdf">Object Embodiment in a Multimodal Simulation</a>.
+                </p>
+                <br>
+                <p align="justify">
+                    <i>Manual and automated descriptions for movie scenes</i> I'm also interested in applying sequential modeling methods in the problem of generating textual description from movie snippets. So far I haven't been very successful in this task, as my sequential model (LSTM) stuck at local optima.
+                </p>
+                <br>
+                <br>
+            </div>
         </div>
     </div>
-</div>
-<script src="./css/bootstrap.min.js.download"></script>
-</body></html>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="./css2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
