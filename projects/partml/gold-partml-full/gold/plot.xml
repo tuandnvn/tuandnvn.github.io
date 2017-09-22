@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PartML>
+<TEXT><![CDATA[
+Plot
+
+Plot is a literary term defined as the events that make up a story, particularly as they relate to one another in a pattern, in a sequence, through cause and effect, how the reader views the story, or simply by coincidence. One is generally interested in how well this pattern of events accomplishes some artistic or emotional effect. An intricate, complicated plot is called an imbroglio, but even the simplest statements of plot may include multiple inferences, as in traditional ballads.
+
+The exposition introduces all of the main characters in the story. It shows how they relate to one another, what their goals and motivations are, and the kind of person they are. The audience may have questions about any of these things, which get settled, but if they do have them they are specific and well-focused questions. Most importantly, in the exposition, the audience gets to know the main character (protagonist), and the protagonist gets to know his or her main goal and what is at stake if he or she fails to attain this goal.
+
+"Conflict" in Freytag's discussion must not be confused with "conflict" in Sir Arthur Thomas Quiller-Couch's critical apparatus plots into types, e.g., man vs. society. The difference is that an entire story can be discussed according to Quiller-Couch's mode of analysis, while Freytag is talking about the second act in a five-act play, at a time when all of the major characters have been introduced, their motives and allegiances have been made clear (at least for the most part), and they now begin to struggle against one another.
+
+Generally, in this phase the protagonist understands his or her goal and begins to work toward it. Smaller problems thwart his initial success, and in this phase his progress is directed primarily against these secondary obstacles. This phase shows us how he overcomes these obstacles.
+
+The point of climax is the turning point of the story, where the main character makes the single big decision that defines the outcome of the story and who he is as a person. The dramatic phase that Freytag called the "climax" is the third of the five phases and occupies the middle of the story. Thus "the climax" may refer to the point of climax or to the third phase of the drama.
+
+The beginning of this phase is marked by the protagonist finally having cleared away the preliminary barriers and being ready to engage with the adversary. Usually, entering this phase, both the protagonist and the antagonist have a plan to win against the other. Now for the first time we see them going against one another in direct, or nearly direct, conflict.
+
+This struggle results with neither character completely winning, nor losing, against the other. Usually, each character's plan is partially successful, and partially foiled by his adversary. What is unique about this central struggle between the two characters is that the protagonist makes a decision which shows us his moral quality, and ultimately determines his fate. In a tragedy, the protagonist here makes a "bad" decision, a miscalculation that demonstrates his tragic flaw.
+
+The climax often contains much of the action in a story, for example, a defining battle.
+
+]]></TEXT>
+<TAGS>
+<ENTITY id="E0" start="46" end="52" text="events" type="abstract" reference_count="multiple" comment="" />
+<ENTITY id="E1" start="68" end="73" text="story" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E2" start="433" end="437" text="plot" type="abstract" reference_count="mass" comment="" />
+<ENTITY id="E3" start="459" end="469" text="inferences" type="abstract" reference_count="multiple" comment="" />
+<ENTITY id="E4" start="541" end="551" text="characters" type="abstract" reference_count="multiple" comment="" />
+<ENTITY id="E5" start="559" end="564" text="story" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E6" start="1354" end="1357" text="act" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E7" start="1372" end="1376" text="play" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E8" start="1449" end="1456" text="motives" type="abstract" reference_count="multiple" comment="" />
+<ENTITY id="E9" start="1461" end="1472" text="allegiances" type="abstract" reference_count="multiple" comment="" />
+<ENTITY id="E10" start="1410" end="1420" text="characters" type="abstract" reference_count="multiple" comment="" />
+<ENTITY id="E11" start="1899" end="1904" text="point" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E12" start="1912" end="1917" text="story" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E13" start="1991" end="1998" text="outcome" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E14" start="2006" end="2011" text="story" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E16" start="2228" end="2233" text="phase" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E17" start="2241" end="2246" text="drama" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E18" start="2098" end="2103" text="third" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E19" start="2116" end="2122" text="phases" type="abstract" reference_count="multiple" comment="" />
+<ENTITY id="E20" start="2253" end="2262" text="beginning" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E21" start="2271" end="2276" text="phase" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E22" start="2941" end="2948" text="quality" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E24" start="2887" end="2898" text="protagonist" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E25" start="3091" end="3095" text="flaw" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E26" start="3004" end="3015" text="protagonist" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E27" start="3102" end="3108" text="climax" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E28" start="3136" end="3142" text="action" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E29" start="3148" end="3153" text="story" type="abstract" reference_count="single" comment="" />
+<PART_OF id="P0" fromID="E0" fromText="events" toID="E1" toText="story" relationship="part_of" negativity="positive" signal_list="S0 S1" comment="" />
+<PART_OF id="P1" fromID="E3" fromText="inferences" toID="E2" toText="plot" relationship="part_of" negativity="positive" signal_list="S2" comment="" />
+<PART_OF id="P2" fromID="E4" fromText="characters" toID="E5" toText="story" relationship="part_of" negativity="positive" signal_list="S3" comment="" />
+<PART_OF id="P3" fromID="E6" fromText="act" toID="E7" toText="play" relationship="part_of" negativity="positive" signal_list="S4" comment="" />
+<PART_OF id="P4" fromID="E8" fromText="motives" toID="E10" toText="characters" relationship="part_of" negativity="positive" signal_list="S5" comment="" />
+<PART_OF id="P5" fromID="E9" fromText="allegiances" toID="E10" toText="characters" relationship="part_of" negativity="positive" signal_list="S5" comment="" />
+<PART_OF id="P6" fromID="E11" fromText="point" toID="E12" toText="story" relationship="part_of" negativity="positive" signal_list="S6" comment="" />
+<PART_OF id="P7" fromID="E13" fromText="outcome" toID="E14" toText="story" relationship="part_of" negativity="positive" signal_list="S7" comment="" />
+<PART_OF id="P8" fromID="E18" fromText="third" toID="E19" toText="phases" relationship="member_of" negativity="positive" signal_list="S8" comment="" />
+<PART_OF id="P9" fromID="E16" fromText="phase" toID="E17" toText="drama" relationship="part_of" negativity="positive" signal_list="S9" comment="" />
+<PART_OF id="P10" fromID="E20" fromText="beginning" toID="E21" toText="phase" relationship="part_of" negativity="positive" signal_list="S10" comment="" />
+<PART_OF id="P11" fromID="E22" fromText="quality" toID="E24" toText="protagonist" relationship="part_of" negativity="positive" signal_list="S12" comment="" />
+<PART_OF id="P12" fromID="E25" fromText="flaw" toID="E26" toText="protagonist" relationship="part_of" negativity="positive" signal_list="S13" comment="" />
+<PART_OF id="P13" fromID="E28" fromText="action" toID="E27" toText="climax" relationship="part_of" negativity="positive" signal_list="S14" comment="" />
+<PART_OF id="P14" fromID="E28" fromText="action" toID="E29" toText="story" relationship="part_of" negativity="positive" signal_list="S15" comment="" />
+<SIGNAL id="S0" start="58" end="62" text="make" />
+<SIGNAL id="S1" start="63" end="65" text="up" />
+<SIGNAL id="S2" start="442" end="449" text="include" />
+<SIGNAL id="S3" start="552" end="554" text="in" />
+<SIGNAL id="S4" start="1358" end="1360" text="in" />
+<SIGNAL id="S5" start="1443" end="1448" text="their" />
+<SIGNAL id="S6" start="1905" end="1907" text="of" />
+<SIGNAL id="S7" start="1999" end="2001" text="of" />
+<SIGNAL id="S8" start="2234" end="2236" text="of" />
+<SIGNAL id="S9" start="2104" end="2106" text="of" />
+<SIGNAL id="S10" start="2263" end="2265" text="of" />
+<SIGNAL id="S12" start="2931" end="2934" text="his" />
+<SIGNAL id="S13" start="3080" end="3083" text="his" />
+<SIGNAL id="S14" start="3115" end="3123" text="contains" />
+<SIGNAL id="S15" start="3143" end="3145" text="in" />
+</TAGS>
+</PartML>

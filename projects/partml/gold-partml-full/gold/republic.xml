@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PartML>
+<TEXT><![CDATA[
+Republic
+
+A republic is a form of government in which the country is considered a "public matter" (Latin: res publica), not the private concern or property of the rulers, and where offices of state are subsequently directly or indirectly elected or appointed rather than inherited. In modern times, a common simplified definition of a republic is a government where the head of state is not a monarch.[1][2] Currently, 135 of the world's 206 sovereign states[citation needed] use the word "republic" as part of their official names.
+Both modern and ancient republics vary widely in their ideology and composition. In classical and medieval times the archetype of all republics was the Roman Republic, which referred to Rome in between the period when it had kings, and the periods when it had emperors. The Italian medieval and Renaissance political tradition today referred to as "civic humanism" is sometimes considered to derive directly from Roman republicans such as Sallust and Tacitus. However, Greek-influenced Roman authors, such as Polybius and Cicero, sometimes also used the term as a translation for the Greek politeia which could mean regime generally, but could also be applied to certain specific types of regime which did not exactly correspond to that of the Roman Republic. Republics were not equated with classical democracies such as Athens, but had a democratic aspect.
+In modern republics such as the United States, France, Russia, India, and Mexico the executive is legitimized both by a constitution and by popular suffrage. Montesquieu included both democracies, where all the people have a share in rule, and aristocracies or oligarchies, where only some of the people rule, as republican forms of government.[3]
+Most often a republic is a sovereign state, but there are also sub-sovereign state entities that are referred to as republics, or which have governments that are described as "republican" in nature. For instance, Article IV of the Constitution of the United States "guarantee[s] to every State in this Union a Republican form of Government".[4] The subdivisions of the Soviet Union were described as republics and two of them – Ukrainian SSR and Byelorussian SSR – had their own seats at the United Nations. While the Constitution of the Soviet Union described that union as a "unitary, federal and multinational state", it was in reality a unitary state since the Communist Party of the Soviet Union exercised a centralized form of authority over the nominally-autonomous Soviet Socialist Republics.[5]
+
+]]></TEXT>
+<TAGS>
+<ENTITY id="E0" start="182" end="189" text="offices" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E1" start="193" end="198" text="state" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E2" start="371" end="375" text="head" type="physical" reference_count="single" comment="" />
+<ENTITY id="E3" start="379" end="384" text="state" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E4" start="485" end="489" text="word" type="physical" reference_count="single" comment="" />
+<ENTITY id="E5" start="527" end="532" text="names" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E6" start="752" end="754" text="it" type="abstract" reference_count="single" comment="the political system of Rome" />
+<ENTITY id="E7" start="759" end="764" text="kings" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E8" start="787" end="789" text="it" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E10" start="794" end="802" text="emperors" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E11" start="1403" end="1412" text="republics" type="abstract" reference_count="multiple" comment="" />
+<ENTITY id="E12" start="1478" end="1487" text="executive" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E13" start="2179" end="2182" text="SSR" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E14" start="2200" end="2204" text="SSR " type="abstract" reference_count="single" comment="" />
+<ENTITY id="E16" start="2233" end="2247" text="United Nations" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E9" start="1" end="9" text="Republic" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E15" start="13" end="21" text="republic" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E17" start="35" end="45" text="government" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E18" start="59" end="66" text="country" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E19" start="91" end="97" text="matter" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E20" start="137" end="144" text="concern" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E21" start="148" end="156" text="property" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E22" start="164" end="170" text="rulers" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E23" start="336" end="344" text="republic" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E24" start="350" end="360" text="government" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E25" start="394" end="401" text="monarch" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E26" start="431" end="436" text="world" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E27" start="453" end="459" text="states" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E29" start="558" end="567" text="republics" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E30" start="583" end="588" text="their" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E31" start="651" end="660" text="archetype" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E32" start="668" end="677" text="republics" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E33" start="692" end="700" text="Republic" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E34" start="953" end="964" text="republicans" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E35" start="973" end="980" text="Sallust" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E36" start="985" end="992" text="Tacitus" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E37" start="1026" end="1033" text="authors" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E38" start="1043" end="1051" text="Polybius" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E39" start="1056" end="1062" text="Cicero" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E40" start="1124" end="1132" text="politeia" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E41" start="1150" end="1156" text="regime" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E42" start="1223" end="1229" text="regime" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E43" start="1284" end="1292" text="Republic" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E44" start="1294" end="1303" text="Republics" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E45" start="1336" end="1347" text="democracies" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E46" start="1513" end="1525" text="constitution" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E47" start="1551" end="1562" text="Montesquieu" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E48" start="1577" end="1588" text="democracies" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E49" start="1604" end="1610" text="people" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E50" start="1637" end="1650" text="aristocracies" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E51" start="1654" end="1665" text="oligarchies" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E52" start="1690" end="1696" text="people" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E55" start="1754" end="1762" text="republic" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E56" start="1778" end="1783" text="state" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E57" start="1824" end="1832" text="entities" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E58" start="1857" end="1866" text="republics" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E59" start="1882" end="1893" text="governments" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E60" start="2259" end="2271" text="Constitution" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E61" start="2286" end="2291" text="Union" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E62" start="2141" end="2150" text="republics" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E63" start="2117" end="2122" text="Union" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E64" start="2029" end="2034" text="State" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E65" start="2043" end="2048" text="Union" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E66" start="1432" end="1438" text="States" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E67" start="1440" end="1446" text="France" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E68" start="1456" end="1461" text="India" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E69" start="1448" end="1454" text="Russia" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E70" start="1467" end="1473" text="Mexico" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E71" start="1999" end="2005" text="States" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E72" start="1972" end="1984" text="Constitution" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E73" start="2416" end="2421" text="Party" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E74" start="2436" end="2441" text="Union" type="concrete" reference_count="single" comment="" />
+<PART_OF id="P0" fromID="E0" fromText="offices" toID="E1" toText="state" relationship="part_of" negativity="positive" signal_list="S0 " comment="state as a structure" />
+<PART_OF id="P1" fromID="E2" fromText="head" toID="E3" toText="state" relationship="part_of" negativity="positive" signal_list="S1" comment="state as a structure" />
+<PART_OF id="P2" fromID="E4" fromText="word" toID="E5" toText="names" relationship="part_of" negativity="positive" signal_list="S2" comment="" />
+<PART_OF id="P5" fromID="E12" fromText="executive" toID="E11" toText="republics" relationship="part_of" negativity="positive" signal_list="S5" comment="" />
+<PART_OF id="P7" fromID="E13" fromText="SSR" toID="E16" toText="United Nations" relationship="member_of" negativity="positive" signal_list="S6,S7" comment="" />
+<PART_OF id="P8" fromID="E14" fromText="SSR " toID="E16" toText="United Nations" relationship="member_of" negativity="positive" signal_list="S6,S7" comment="" />
+<PART_OF id="P6" fromID="E27" fromText="states" toID="E26" toText="world" relationship="member_of" negativity="positive" signal_list="S8" comment="" />
+<PART_OF id="P9" fromID="E46" fromText="constitution" toID="E11" toText="republics" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P10" fromID="E13" fromText="SSR" toID="E63" toText="Union" relationship="member_of" negativity="positive" signal_list="S9, S10" comment="" />
+<PART_OF id="P11" fromID="E14" fromText="SSR " toID="E63" toText="Union" relationship="member_of" negativity="positive" signal_list="S9, S10" comment="" />
+<PART_OF id="P12" fromID="E64" fromText="State" toID="E65" toText="Union" relationship="member_of" negativity="positive" signal_list="S11" comment="" />
+<PART_OF id="P13" fromID="E72" fromText="Constitution" toID="E71" toText="States" relationship="part_of" negativity="positive" signal_list="S12" comment="" />
+<PART_OF id="P14" fromID="E60" fromText="Constitution" toID="E61" toText="Union" relationship="part_of" negativity="positive" signal_list="S13" comment="" />
+<PART_OF id="P15" fromID="E73" fromText="Party" toID="E74" toText="Union" relationship="part_of" negativity="positive" signal_list="S14" comment="" />
+<SIGNAL id="S0" start="190" end="192" text="of" />
+<SIGNAL id="S1" start="376" end="378" text="of" />
+<SIGNAL id="S2" start="504" end="508" text="part" />
+<SIGNAL id="S5" start="1393" end="1395" text="In" />
+<SIGNAL id="S6" start="2206" end="2209" text="had" />
+<SIGNAL id="S7" start="2220" end="2225" text="seats" />
+<SIGNAL id="S8" start="436" end="438" text="'s" />
+<SIGNAL id="S9" start="2090" end="2102" text="subdivisions" />
+<SIGNAL id="S10" start="2159" end="2166" text="of them" />
+<SIGNAL id="S11" start="2035" end="2037" text="in" />
+<SIGNAL id="S12" start="2272" end="2274" text="of" />
+<SIGNAL id="S13" start="1985" end="1987" text="of" />
+<SIGNAL id="S14" start="2422" end="2424" text="of" />
+</TAGS>
+</PartML>

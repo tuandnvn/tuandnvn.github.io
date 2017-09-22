@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PartML>
+<TEXT><![CDATA[
+Chordate
+
+Chordates, members of the phylum Chordata, are deuterostome animals possessing a notochord, a hollow dorsal nerve cord, pharyngeal slits, an endostyle, and a post-anal tail for at least some period of their life cycles. Taxonomically, the phylum includes the subphyla Vertebrata, including mammals, fish, amphibians, reptiles, birds; Tunicata, including salps and sea squirts; and Cephalochordata, comprising the lancelets.
+The phylum Hemichordata including the acorn worms has been presented as a fourth chordate subphylum, but it now is usually treated as a separate phylum. It, along with the echinoderm phylum, including starfish, sea urchins, and sea cucumbers and their kin, are the chordates' closest relatives. Primitive chordates are known from at least as early as the Cambrian explosion.
+There are more than 60,000 living species of chordates, about half of which are bony fish of the class osteichthyes. The world's largest animal, the blue whale, and fastest animal, the peregrine falcon, are chordates.[2]
+Tunicate larvae have both a notochord and a nerve cord which are lost in adulthood. Cephalochordates have a notochord and a nerve cord (but no brain or specialist sensory organs) and a very simple circulatory system. Craniates are the only subphylum whose members have skulls. In all craniates except for hagfish, the dorsal hollow nerve cord is surrounded with cartilaginous or bony vertebrae and the notochord is generally reduced; hence, hagfish are not universally regarded as vertebrates, though recent DNA comparisons suggest that they are in fact vertebrates. The chordates and three sister phyla, the Hemichordata, the Echinodermata and the Xenoturbellida, make up the deuterostomes, one of the two superphyla that encompass all fairly complex animals.
+Attempts to work out the evolutionary relationships of the chordates have produced several hypotheses. The current consensus is that chordates are monophyletic, meaning that the Chordata include all and only the descendants of a single common ancestor which is itself a chordate, and that craniates' nearest relatives are cephalochordates. All of the earliest chordate fossils have been found in the Early Cambrian Chengjiang fauna, and include two species that are regarded as fish, which implies they are vertebrates. Because the fossil record of chordates is poor, only molecular phylogenetics offers a reasonable prospect of dating their emergence. However, the use of molecular phylogenetics for dating evolutionary transitions is controversial.
+It has also proved difficult to produce a detailed classification within the living chordates. Attempts to produce evolutionary "family trees" give results that differ from traditional classes because several of those classes are not monophyletic. As a result, vertebrate classification is in a state of flux.
+
+]]></TEXT>
+<TAGS>
+<ENTITY id="E0" start="71" end="78" text="animals" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E1" start="92" end="101" text="notochord" type="physical" reference_count="single" comment="" />
+<ENTITY id="E2" start="125" end="129" text="cord" type="physical" reference_count="single" comment="" />
+<ENTITY id="E3" start="142" end="147" text="slits" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E4" start="152" end="161" text="endostyle" type="physical" reference_count="single" comment="" />
+<ENTITY id="E5" start="179" end="183" text="tail" type="physical" reference_count="single" comment="" />
+<ENTITY id="E6" start="1040" end="1046" text="larvae" type="physical" reference_count="single" comment="" />
+<ENTITY id="E7" start="1059" end="1068" text="notochord" type="physical" reference_count="single" comment="" />
+<ENTITY id="E8" start="1081" end="1085" text="cord" type="physical" reference_count="single" comment="" />
+<ENTITY id="E9" start="1115" end="1131" text="Cephalochordates" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E10" start="1139" end="1148" text="notochord" type="physical" reference_count="single" comment="" />
+<ENTITY id="E11" start="1161" end="1165" text="cord" type="physical" reference_count="single" comment="" />
+<ENTITY id="E12" start="1174" end="1179" text="brain" type="physical" reference_count="single" comment="" />
+<ENTITY id="E13" start="1202" end="1208" text="organs" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E14" start="1240" end="1246" text="system" type="physical" reference_count="single" comment="" />
+<ENTITY id="E15" start="1287" end="1294" text="members" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E16" start="1300" end="1306" text="skulls" type="physical" reference_count="single" comment="" />
+<ENTITY id="E17" start="1315" end="1324" text="craniates" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E18" start="1369" end="1373" text="cord" type="physical" reference_count="single" comment="" />
+<ENTITY id="E19" start="1415" end="1424" text="vertebrae" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E20" start="1433" end="1442" text="notochord" type="physical" reference_count="single" comment="" />
+<ENTITY id="E21" start="1336" end="1343" text="hagfish" type="physical" reference_count="single" comment="" />
+<PART_OF id="P0" fromID="E1" fromText="notochord" toID="E0" toText="animals" relationship="part_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P1" fromID="E2" fromText="cord" toID="E0" toText="animals" relationship="part_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P2" fromID="E3" fromText="slits" toID="E0" toText="animals" relationship="part_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P3" fromID="E4" fromText="endostyle" toID="E0" toText="animals" relationship="part_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P4" fromID="E5" fromText="tail" toID="E0" toText="animals" relationship="part_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P5" fromID="E7" fromText="notochord" toID="E6" toText="larvae" relationship="part_of" negativity="positive" signal_list="S1" comment="" />
+<PART_OF id="P6" fromID="E8" fromText="cord" toID="E6" toText="larvae" relationship="part_of" negativity="positive" signal_list="S1" comment="" />
+<PART_OF id="P7" fromID="E10" fromText="notochord" toID="E9" toText="Cephalochordates" relationship="part_of" negativity="positive" signal_list="S2" comment="" />
+<PART_OF id="P8" fromID="E11" fromText="cord" toID="E9" toText="Cephalochordates" relationship="part_of" negativity="positive" signal_list="S2" comment="" />
+<PART_OF id="P9" fromID="E12" fromText="brain" toID="E9" toText="Cephalochordates" relationship="part_of" negativity="negative" signal_list="S2" comment="" />
+<PART_OF id="P10" fromID="E13" fromText="organs" toID="E9" toText="Cephalochordates" relationship="part_of" negativity="negative" signal_list="S2" comment="" />
+<PART_OF id="P11" fromID="E14" fromText="system" toID="E9" toText="Cephalochordates" relationship="part_of" negativity="positive" signal_list="S2" comment="" />
+<PART_OF id="P12" fromID="E16" fromText="skulls" toID="E15" toText="members" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P13" fromID="E18" fromText="cord" toID="E17" toText="craniates" relationship="part_of" negativity="positive" signal_list="S4" comment="" />
+<PART_OF id="P14" fromID="E19" fromText="vertebrae" toID="E17" toText="craniates" relationship="part_of" negativity="positive" signal_list="S4" comment="" />
+<PART_OF id="P15" fromID="E20" fromText="notochord" toID="E17" toText="craniates" relationship="part_of" negativity="positive" signal_list="S4" comment="" />
+<PART_OF id="P16" fromID="E19" fromText="vertebrae" toID="E21" toText="hagfish" relationship="part_of" negativity="negative" signal_list="" comment="" />
+<SIGNAL id="S0" start="79" end="89" text="possessing" />
+<SIGNAL id="S1" start="1047" end="1051" text="have" />
+<SIGNAL id="S2" start="1132" end="1136" text="have" />
+<SIGNAL id="S3" start="1295" end="1299" text="have" />
+<SIGNAL id="S4" start="1308" end="1310" text="In" />
+<SIGNAL id="S5" start="1325" end="1331" text="except" />
+</TAGS>
+</PartML>

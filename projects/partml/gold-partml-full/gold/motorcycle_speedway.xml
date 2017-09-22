@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PartML>
+<TEXT><![CDATA[
+Motorcycle Speedway
+
+Motorcycle speedway, usually referred to as speedway, is a motorcycle sport involving four and sometimes up to six riders competing over four anti-clockwise laps of an oval circuit. Speedway motorcycles use only one gear and have no brakes and racing takes place on a flat oval track usually consisting of dirt or loosely packed shale. Competitors use this surface to slide their machines sideways, powersliding or broadsiding into the bends. On the straight sections of the track the motorcycles reach speeds of up 70 miles per hour (110 km/h).
+
+The exact origins of the sport are unknown but there is evidence of a type of speedway racing being practised in the USA before the First World War and in Australia in the late teens and early 1920s. There are now both domestic and international competitions in a number of countries including the Speedway World Cup whilst the highest overall scoring individual in the Speedway Grand Prix events is pronounced the world champion. Speedway is popular in ce
+]]></TEXT>
+<TAGS>
+<ENTITY id="E0" start="238" end="242" text="gear" type="physical" reference_count="single" comment="" />
+<ENTITY id="E1" start="213" end="224" text="motorcycles" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E2" start="255" end="261" text="brakes" type="physical" reference_count="zero" comment="" />
+<ENTITY id="E3" start="328" end="332" text="dirt" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E4" start="300" end="305" text="track" type="physical" reference_count="single" comment="" />
+<ENTITY id="E5" start="351" end="356" text="shale" type="physical" reference_count="mass" comment="" />
+<PART_OF id="P0" fromID="E0" fromText="gear" toID="E1" toText="motorcycles" relationship="part_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P1" fromID="E2" fromText="brakes" toID="E1" toText="motorcycles" relationship="part_of" negativity="negative" signal_list="S1, S2" comment="" />
+<PART_OF id="P2" fromID="E3" fromText="dirt" toID="E4" toText="track" relationship="substance_of" negativity="positive" signal_list="S3, S4" comment="" />
+<PART_OF id="P3" fromID="E5" fromText="shale" toID="E3" toText="dirt" relationship="substance_of" negativity="positive" signal_list="S3, S4" comment="" />
+<SIGNAL id="S0" start="225" end="228" text="use" />
+<SIGNAL id="S1" start="247" end="251" text="have" />
+<SIGNAL id="S2" start="252" end="254" text="no" />
+<SIGNAL id="S3" start="314" end="324" text="consisting" />
+<SIGNAL id="S4" start="325" end="327" text="of" />
+</TAGS>
+</PartML>

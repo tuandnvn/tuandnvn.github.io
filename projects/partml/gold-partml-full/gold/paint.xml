@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PartML>
+<TEXT><![CDATA[
+Paint
+
+The binder, commonly called the vehicle, is the film-forming component of paint. It is the only component that must be present. Components listed below are included optionally, depending on the desired properties of the cured film.
+
+The binder imparts adhesion and strongly influences such properties as gloss, durability, flexibility, and toughness.
+
+Binders include synthetic or natural resins such as alkyds, acrylics, vinyl-acrylics, vinyl acetate/ethylene (VAE), polyurethanes, polyesters, melamine resins, epoxy, or oils. Binders can be categorized according to the mechanisms for drying or curing. Although drying may refer to evaporation of the solvent or thinner, it usually refers to oxidative cross-linking of the binders and is indistinguishable from curing. Some paints form by solvent evaporation only, but most rely on cross-linking processes.
+
+Paints that dry by solvent evaporation and contain the solid binder dissolved in a solvent are known as lacquers. A solid film forms when the solvent evaporates, and because the film can re-dissolve in solvent, lacquers are unsuitable for applications where chemical resistance is important. Classic nitrocellulose lacquers fall into this category, as do non-grain raising stains composed of dyes dissolved in solvent and more modern acrylic-based coatings such as 5-ball Krylon aerosol. Performance varies by formulation, but lacquers generally tend to have better UV resistance and lower corrosion resistance than comparable systems that cure by polymerization or coalescence.
+
+The paint type known as Emulsion in the UK and Latex in the USA is a water-borne dispersion of sub-micrometre polymer particles. These terms in their respective countries cover all paints that use synthetic polymers such as acrylic, vinyl acrylic (PVA), styrene acrylic, etc. as binders. The term "latex" in the context of paint in the USA simply means an aqueous dispersion; latex rubber from the rubber tree is not an ingredient. These dispersions are prepared by emulsion polymerization. Such paints cure by a process called coalescence where first the water, and then the trace, or coalescing, solvent, evaporate and draw together and soften the binder particles and fuse them together into irreversibly bound networked structures, so that the paint will not redissolve in the solvent/water that originally carried it. The residual surfactants in paint as well as hydrolytic effects with some polymers cause the paint to remain susceptible to softening and, over time, degradation by water. The general term of latex paint is usually used in the USA, while the term emulsion paint is used for the same products in the UK and the term latex paint is not used at all. Paints that cure by oxidative crosslinking are generally single package coatings. When applied, the exposure to oxygen in the air starts a process that crosslinks and polymerizes the binder component. Classic alkyd enamels would fall into this category. Oxidative cure coatings are catalyzed by metal complex driers such as cobalt naphthenate.
+
+Paints that cure by polymerization are generally one or two package coatings that polymerize by way of a chemical reaction and which cure into a crosslinked film. Depending on composition they may need to dry first, by evaporation of solvent. Classic two package epoxies or polyurethanes would fall into this category.
+
+There are paints called plastisols/organosols, which are made by blending PVC granules with a plasticiser. These are stoved and the mix coalesces.
+
+Other films are formed by cooling of the binder. For example, enc
+]]></TEXT>
+<TAGS>
+<ENTITY id="E0" start="12" end="18" text="binder" type="physical" reference_count="single" comment="" />
+<ENTITY id="E1" start="82" end="87" text="paint" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E2" start="234" end="238" text="film" type="physical" reference_count="single" comment="" />
+<ENTITY id="E3" start="136" end="146" text="Components" type="abstract" reference_count="multiple" comment="" />
+<ENTITY id="E6" start="868" end="874" text="Paints" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E7" start="929" end="935" text="binder" type="physical" reference_count="single" comment="" />
+<ENTITY id="E4" start="1046" end="1050" text="film" type="physical" reference_count="single" comment="" />
+<ENTITY id="E5" start="1079" end="1087" text="lacquers" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E8" start="1168" end="1182" text="nitrocellulose" type="physical" reference_count="single" comment="" />
+<ENTITY id="E9" start="1183" end="1191" text="lacquers" type="physical" reference_count="single" comment="" />
+<ENTITY id="E10" start="1241" end="1247" text="stains" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E11" start="1260" end="1264" text="dyes" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E12" start="1629" end="1639" text="dispersion" type="physical" reference_count="single" comment="" />
+<ENTITY id="E13" start="1666" end="1675" text="particles" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E14" start="1729" end="1735" text="paints" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E15" start="1755" end="1763" text="polymers" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E16" start="1827" end="1834" text="binders" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E17" start="2272" end="2282" text="structures" type="abstract" reference_count="multiple" comment="" />
+<ENTITY id="E18" start="2224" end="2228" text="them" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E19" start="2384" end="2395" text="surfactants" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E20" start="2399" end="2404" text="paint" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E21" start="2445" end="2453" text="polymers" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E22" start="2830" end="2836" text="oxygen" type="physical" reference_count="single" comment="" />
+<ENTITY id="E23" start="2844" end="2847" text="air" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E24" start="3131" end="3139" text="coatings" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E25" start="3063" end="3069" text="Paints" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E26" start="3407" end="3417" text="plastisols" type="physical" reference_count="single" comment="" />
+<ENTITY id="E27" start="3418" end="3428" text="organosols" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E28" start="3461" end="3469" text="granules" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E29" start="3477" end="3488" text="plasticiser" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E30" start="360" end="367" text="Binders" type="concrete" reference_count="mass" comment="" />
+<ENTITY id="E31" start="412" end="418" text="alkyds" type="concrete" reference_count="mass" comment="" />
+<ENTITY id="E32" start="420" end="428" text="acrylics" type="concrete" reference_count="mass" comment="" />
+<ENTITY id="E33" start="430" end="444" text="vinyl-acrylics" type="concrete" reference_count="mass" comment="" />
+<ENTITY id="E34" start="452" end="468" text="acetate/ethylene" type="concrete" reference_count="mass" comment="" />
+<ENTITY id="E35" start="476" end="489" text="polyurethanes" type="concrete" reference_count="mass" comment="" />
+<ENTITY id="E36" start="491" end="501" text="polyesters" type="concrete" reference_count="mass" comment="" />
+<ENTITY id="E37" start="512" end="518" text="resins" type="concrete" reference_count="mass" comment="" />
+<ENTITY id="E38" start="520" end="525" text="epoxy" type="concrete" reference_count="mass" comment="" />
+<ENTITY id="E39" start="530" end="534" text="oils" type="concrete" reference_count="mass" comment="" />
+<PART_OF id="P0" fromID="E0" fromText="binder" toID="E1" toText="paint" relationship="substance_of" negativity="positive" signal_list="S0" comment="must be present, that's why substace_of" />
+<PART_OF id="P1" fromID="E3" fromText="Components" toID="E2" toText="film" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P2" fromID="E7" fromText="binder" toID="E6" toText="Paints" relationship="substance_of" negativity="positive" signal_list="S1" comment="" />
+<PART_OF id="P3" fromID="E4" fromText="film" toID="E5" toText="lacquers" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P4" fromID="E8" fromText="nitrocellulose" toID="E9" toText="lacquers" relationship="substance_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P5" fromID="E11" fromText="dyes" toID="E10" toText="stains" relationship="part_of" negativity="positive" signal_list="S2,S3" comment="" />
+<PART_OF id="P6" fromID="E15" fromText="polymers" toID="E14" toText="paints" relationship="substance_of" negativity="positive" signal_list="S4" comment="" />
+<PART_OF id="P7" fromID="E16" fromText="binders" toID="E14" toText="paints" relationship="substance_of" negativity="positive" signal_list="S5" comment="" />
+<PART_OF id="P8" fromID="E18" fromText="them" toID="E17" toText="structures" relationship="part_of" negativity="positive" signal_list="S6,S7" comment="" />
+<PART_OF id="P9" fromID="E19" fromText="surfactants" toID="E20" toText="paint" relationship="part_of" negativity="positive" signal_list="S8" comment="" />
+<PART_OF id="P10" fromID="E21" fromText="polymers" toID="E20" toText="paint" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P11" fromID="E22" fromText="oxygen" toID="E23" toText="air" relationship="part_of" negativity="positive" signal_list="S9" comment="" />
+<PART_OF id="P12" fromID="E24" fromText="coatings" toID="E25" toText="Paints" relationship="substance_of" negativity="positive" signal_list="S10" comment="" />
+<PART_OF id="P13" fromID="E28" fromText="granules" toID="E26" toText="plastisols" relationship="substance_of" negativity="positive" signal_list="S11,S12" comment="" />
+<PART_OF id="P14" fromID="E28" fromText="granules" toID="E27" toText="organosols" relationship="substance_of" negativity="positive" signal_list="S11,S12" comment="" />
+<PART_OF id="P15" fromID="E29" fromText="plasticiser" toID="E26" toText="plastisols" relationship="substance_of" negativity="positive" signal_list="S11,S12" comment="" />
+<PART_OF id="P16" fromID="E29" fromText="plasticiser" toID="E27" toText="organosols" relationship="substance_of" negativity="positive" signal_list="S11,S12" comment="" />
+<PART_OF id="P17" fromID="E31" fromText="alkyds" toID="E30" toText="Binders" relationship="substance_of" negativity="positive" signal_list="S13" comment="" />
+<PART_OF id="P18" fromID="E32" fromText="acrylics" toID="E30" toText="Binders" relationship="substance_of" negativity="positive" signal_list="S13" comment="" />
+<PART_OF id="P19" fromID="E33" fromText="vinyl-acrylics" toID="E30" toText="Binders" relationship="substance_of" negativity="positive" signal_list="S13" comment="" />
+<PART_OF id="P20" fromID="E34" fromText="acetate/ethylene" toID="E30" toText="Binders" relationship="substance_of" negativity="positive" signal_list="S13" comment="" />
+<PART_OF id="P21" fromID="E35" fromText="polyurethanes" toID="E30" toText="Binders" relationship="substance_of" negativity="positive" signal_list="S13" comment="" />
+<PART_OF id="P22" fromID="E36" fromText="polyesters" toID="E30" toText="Binders" relationship="substance_of" negativity="positive" signal_list="S13" comment="" />
+<PART_OF id="P23" fromID="E37" fromText="resins" toID="E30" toText="Binders" relationship="substance_of" negativity="positive" signal_list="S13" comment="" />
+<PART_OF id="P24" fromID="E38" fromText="epoxy" toID="E30" toText="Binders" relationship="substance_of" negativity="positive" signal_list="S13" comment="" />
+<PART_OF id="P25" fromID="E39" fromText="oils" toID="E30" toText="Binders" relationship="substance_of" negativity="positive" signal_list="S13" comment="" />
+<SIGNAL id="S0" start="69" end="78" text="component" />
+<SIGNAL id="S1" start="911" end="918" text="contain" />
+<SIGNAL id="S2" start="1248" end="1256" text="composed" />
+<SIGNAL id="S3" start="1257" end="1259" text="of" />
+<SIGNAL id="S4" start="1741" end="1744" text="use" />
+<SIGNAL id="S5" start="1824" end="1826" text="as" />
+<SIGNAL id="S6" start="2219" end="2223" text="fuse" />
+<SIGNAL id="S7" start="2238" end="2242" text="into" />
+<SIGNAL id="S8" start="2396" end="2398" text="in" />
+<SIGNAL id="S9" start="2837" end="2839" text="in" />
+<SIGNAL id="S10" start="3098" end="3101" text="are" />
+<SIGNAL id="S11" start="3440" end="3444" text="made" />
+<SIGNAL id="S12" start="3445" end="3447" text="by" />
+<SIGNAL id="S13" start="368" end="375" text="include" />
+</TAGS>
+</PartML>

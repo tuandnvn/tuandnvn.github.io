@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PartML>
+<TEXT><![CDATA[
+Palaeeudyptes
+
+Palaeeudyptes is an extinct genus of large penguins, currently containing four accepted species. They were probably larger than almost all living penguins, with the smaller species being about the size of an Emperor Penguin and the largest ones having stood about 1.5 meters tall.
+
+Of the four species, two (P. gunnari and P. klekowskii) are known from numerous remains found in Middle or Late Eocene strata (34 to 50 MYA) of the La Meseta Formation on Seymour Island, Antarctica. P. antarcticus, the first fossil penguin described, is only really known from a single incomplete tarsometatarsus found in the Late Oligocene Otekaike Limestone (23 to 28, possibly up to 34 MYA) at Kakanui, New Zealand, but numerous other bones have been tentatively assigned to the species. The other described New Zealand species, P. marplesi, is known from parts of a skeleton, mainly leg bones, from the Middle or Late Eocene Burnside Mudstone (34 to 40 MYA) at Burnside, Dunedin. To this species also a number of additional remains have been tentatively assigned. The problem with the indeterminate New Zealand specimens is that they at least in part are intermediate in size between the two species (Simpson, 1971). It may be that P. marplesi simply evolved into the smaller P. antarcticus. Bones unassignable to specie
+]]></TEXT>
+<TAGS>
+<ENTITY id="E0" start="44" end="49" text="genus" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E1" start="59" end="67" text="penguins" type="abstract" reference_count="multiple" comment="" />
+<ENTITY id="E2" start="104" end="111" text="species" type="abstract" reference_count="multiple" comment="" />
+<ENTITY id="E3" start="189" end="196" text="species" type="abstract" reference_count="multiple" comment="" />
+<ENTITY id="E4" start="256" end="260" text="ones" type="abstract" reference_count="multiple" comment="" />
+<ENTITY id="E5" start="113" end="117" text="They" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E6" start="857" end="862" text="parts" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E7" start="868" end="876" text="skeleton" type="physical" reference_count="single" comment="" />
+<ENTITY id="E8" start="889" end="894" text="bones" type="physical" reference_count="multiple" comment="" />
+<PART_OF id="P0" fromID="E1" fromText="penguins" toID="E0" toText="genus" relationship="member_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P1" fromID="E2" fromText="species" toID="E0" toText="genus" relationship="member_of" negativity="positive" signal_list="S1" comment="" />
+<PART_OF id="P2" fromID="E3" fromText="species" toID="E5" toText="They" relationship="member_of" negativity="positive" signal_list="S2" comment="" />
+<PART_OF id="P3" fromID="E4" fromText="ones" toID="E5" toText="They" relationship="member_of" negativity="positive" signal_list="S2" comment="" />
+<PART_OF id="P4" fromID="E6" fromText="parts" toID="E7" toText="skeleton" relationship="part_of" negativity="positive" signal_list="S3" comment="" />
+<PART_OF id="P5" fromID="E8" fromText="bones" toID="E7" toText="skeleton" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<SIGNAL id="S0" start="50" end="52" text="of" />
+<SIGNAL id="S1" start="79" end="89" text="containing" />
+<SIGNAL id="S2" start="172" end="176" text="with" />
+<SIGNAL id="S3" start="863" end="865" text="of" />
+</TAGS>
+</PartML>

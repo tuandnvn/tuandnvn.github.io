@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PartML>
+<TEXT><![CDATA[
+Physics
+
+Physics (from Ancient Greek: φύσις physis "nature") is a part of natural philosophy and a natural science that involves the study of matter[1] and its motion through space and time, along with related concepts such as energy and force.[2] More broadly, it is the general analysis of nature, conducted in order to understand how the universe behaves.[3][4][5]
+Physics is one of the oldest academic disciplines, perhaps the oldest through its inclusion of astronomy.[6] Over the last two millennia, physics was a part of natural philosophy along with chemistry, certain branches of mathematics, and biology, but during the Scientific Revolution in the 17th century, the natural sciences emerged as unique research programs in their own right.[7] Physics intersects with many interdisciplinary areas of research, such as biophysics and quantum chemistry, and the boundaries of physics are not rigidly defined. New ideas in physics often explain the fundamental mechanisms of other sciences, while opening new avenues of research in areas such as mathematics and philosophy.
+Physics also makes significant contributions through advances in new technologies that arise from theoretical breakthroughs. For example, advances in the understanding of electromagnetism or nuclear physics led directly to the development of new products which have dramatically transformed modern-day society, such as television, computers, domestic appliances, and nuclear weapons; advances in thermodynamics led to the development of industrialization; and advances in mechanics inspired the development of calculus.
+Though physics deals with a wide variety of systems, certain theories are used by all physicists. Each of these theories were experimentally tested numerous times and found correct as an approximation of nature (within a certain domain of validity). For instance, the theory of classical mechanics accurately describes the motion of objects, provided they are much larger than atoms and moving at much less than the speed of light. These theories continue to be areas of active research, and a remarkable aspect of classical mechanics known as chaos was discovered in the 20th century, three centuries after the original formulation of classical mechanics by Isaac Newton (1642–1727).
+These central theories are important tools for research into more specialized topics, and any physicist, regardless of his or her specialization, is expected to be literate in them. These include classical mechanics, quantum mechanics, thermodynamics and statistical mechanics, electromagnetism, and special relativity.
+
+]]></TEXT>
+<TAGS>
+<ENTITY id="E0" start="10" end="17" text="Physics" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E1" start="83" end="93" text="philosophy" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E2" start="108" end="115" text="science" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E3" start="464" end="473" text="astronomy" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E4" start="369" end="376" text="Physics" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E5" start="507" end="514" text="physics" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E6" start="537" end="547" text="philosophy" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E7" start="559" end="568" text="chemistry" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E8" start="607" end="614" text="biology" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E9" start="578" end="586" text="branches" type="abstract" reference_count="multiple" comment="" />
+<ENTITY id="E10" start="590" end="601" text="mathematics" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E11" start="801" end="806" text="areas" type="abstract" reference_count="multiple" comment="" />
+<ENTITY id="E12" start="810" end="818" text="research" type="abstract" reference_count="mass" comment="" />
+<PART_OF id="P0" fromID="E0" fromText="Physics" toID="E1" toText="philosophy" relationship="part_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P1" fromID="E0" fromText="Physics" toID="E2" toText="science" relationship="part_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P2" fromID="E3" fromText="astronomy" toID="E4" toText="Physics" relationship="part_of" negativity="positive" signal_list="S1" comment="" />
+<PART_OF id="P3" fromID="E5" fromText="physics" toID="E6" toText="philosophy" relationship="part_of" negativity="positive" signal_list="S2" comment="" />
+<PART_OF id="P4" fromID="E7" fromText="chemistry" toID="E6" toText="philosophy" relationship="part_of" negativity="positive" signal_list="S2" comment="" />
+<PART_OF id="P5" fromID="E9" fromText="branches" toID="E10" toText="mathematics" relationship="part_of" negativity="positive" signal_list="S3" comment="" />
+<PART_OF id="P6" fromID="E9" fromText="branches" toID="E6" toText="philosophy" relationship="part_of" negativity="positive" signal_list="S2" comment="" />
+<PART_OF id="P7" fromID="E8" fromText="biology" toID="E6" toText="philosophy" relationship="part_of" negativity="positive" signal_list="S2" comment="" />
+<PART_OF id="P8" fromID="E11" fromText="areas" toID="E12" toText="research" relationship="part_of" negativity="positive" signal_list="S4" comment="research in general as a structure " />
+<SIGNAL id="S0" start="67" end="71" text="part" />
+<SIGNAL id="S1" start="451" end="460" text="inclusion" />
+<SIGNAL id="S2" start="521" end="525" text="part" />
+<SIGNAL id="S3" start="587" end="589" text="of" />
+<SIGNAL id="S4" start="807" end="809" text="of" />
+</TAGS>
+</PartML>

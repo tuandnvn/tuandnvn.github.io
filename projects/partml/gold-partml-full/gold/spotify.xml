@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PartML>
+<TEXT><![CDATA[
+Spotify
+
+The Spotify software is proprietary and uses digital rights management (DRM) to prevent unauthorized use of content. Users who agree to Spotify's Terms and Conditions agree to not reverse engineer the application.
+
+The contents of each client's cache is summarized in an index which is sent to the Spotify stream hub upon connecting to the service. This index is then used to inform other clients about additional peers they can connect to for fetching streamed data for individual tracks being played. This is accommodated by each client, upon startup, acting as a server listening for incoming connections from other Spotify users, as well as connecting to other users to exchange cached data as appropriate. There are currently no official details from the developers about how many connections and how much of a user's upstream bandwidth the Spotify client will use when streaming to other users; the Spotify client offers no way for the user to configure this.
+
+Audio streams are in the Vorbis format at q5 (ca. 160 kbit/s), or optional q9 (ca. 320 kbit/s)[72] for Premium subscribers. Spotify boasts having an almost buffer-free streaming service.
+
+As of version 0.4.3, it is possible to also play back local MP3 and AAC files, though this does not work in Linux using Wine because Spotify is "...blocking codecs with the identifier "WINE-MPEG3? until the Wine system works satisfactorily." However, the native Linux version supports local files.
+
+Cache size and location is configurable. 1 GB or more disk space is recommended. On Mac OS X, a G4 processor or higher is required. A user must set up an account in order to use the software. This account can be used on several computers, but music playback is limited to one computer at a time.
+
+Spotify uses peer to peer transfers to supplement their available bandwidth. This has led to it being banned on large networks where users are not responsible for bandwidth costs.
+
+]]></TEXT>
+<TAGS>
+<ENTITY id="E0" start="156" end="161" text="Terms" type="abstract" reference_count="multiple" comment="" />
+<ENTITY id="E1" start="166" end="176" text="Conditions" type="abstract" reference_count="multiple" comment="" />
+<ENTITY id="E2" start="146" end="153" text="Spotify" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E3" start="229" end="237" text="contents" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E4" start="255" end="260" text="cache" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E7" start="1101" end="1108" text="Spotify" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E8" start="1155" end="1162" text="service" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E9" start="1879" end="1887" text="networks" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E10" start="1894" end="1899" text="users" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E5" start="1" end="8" text="Spotify" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E6" start="22" end="30" text="software" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E11" start="70" end="80" text="management" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E12" start="82" end="85" text="DRM" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E13" start="111" end="114" text="use" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E14" start="118" end="125" text="content" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E15" start="127" end="132" text="Users" type="concrete" reference_count="multiple" comment="" />
+<ENTITY id="E16" start="281" end="286" text="index" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E17" start="323" end="326" text="hub" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E18" start="350" end="357" text="service" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E19" start="364" end="369" text="index" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E20" start="399" end="406" text="clients" type="concrete" reference_count="multiple" comment="" />
+<ENTITY id="E21" start="424" end="429" text="peers" type="concrete" reference_count="multiple" comment="" />
+<ENTITY id="E22" start="430" end="434" text="they" type="concrete" reference_count="multiple" comment="" />
+<ENTITY id="E23" start="472" end="476" text="data" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E24" start="492" end="498" text="tracks" type="concrete" reference_count="multiple" comment="" />
+<ENTITY id="E25" start="542" end="548" text="client" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E26" start="576" end="582" text="server" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E27" start="637" end="642" text="users" type="concrete" reference_count="multiple" comment="" />
+<ENTITY id="E28" start="675" end="680" text="users" type="concrete" reference_count="multiple" comment="" />
+<ENTITY id="E29" start="700" end="704" text="data" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E30" start="753" end="760" text="details" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E31" start="770" end="780" text="developers" type="concrete" reference_count="multiple" comment="" />
+<ENTITY id="E32" start="826" end="830" text="user" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E33" start="842" end="851" text="bandwidth" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E34" start="864" end="870" text="client" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E35" start="904" end="909" text="users" type="concrete" reference_count="multiple" comment="" />
+<ENTITY id="E36" start="923" end="929" text="client" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E37" start="952" end="956" text="user" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E38" start="983" end="990" text="streams" type="concrete" reference_count="multiple" comment="" />
+<ENTITY id="E39" start="1088" end="1099" text="subscribers" type="concrete" reference_count="multiple" comment="" />
+<ENTITY id="E40" start="246" end="252" text="client" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E41" start="1237" end="1242" text="files" type="concrete" reference_count="multiple" comment="" />
+<ENTITY id="E42" start="1273" end="1278" text="Linux" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E43" start="1285" end="1289" text="Wine" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E44" start="1298" end="1305" text="Spotify" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E45" start="1322" end="1328" text="codecs" type="concrete" reference_count="multiple" comment="" />
+<ENTITY id="E46" start="1338" end="1348" text="identifier" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E47" start="1377" end="1383" text="system" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E48" start="1433" end="1440" text="version" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E49" start="1456" end="1461" text="files" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E50" start="1464" end="1469" text="Cache" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E51" start="1563" end="1572" text="processor" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E52" start="1548" end="1556" text="Mac OS X" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E53" start="1598" end="1602" text="user" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E54" start="1618" end="1625" text="account" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E55" start="1646" end="1654" text="software" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E56" start="1661" end="1668" text="account" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E57" start="1692" end="1701" text="computers" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E58" start="1713" end="1721" text="playback" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E59" start="1740" end="1748" text="computer" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E60" start="1761" end="1768" text="Spotify" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E61" start="1787" end="1796" text="transfers" type="concrete" reference_count="multiple" comment="" />
+<ENTITY id="E62" start="1827" end="1836" text="bandwidth" type="concrete" reference_count="single" comment="" />
+<ENTITY id="E63" start="1811" end="1816" text="their" type="concrete" reference_count="multiple" comment="" />
+<ENTITY id="E64" start="1934" end="1939" text="costs" type="concrete" reference_count="multiple" comment="" />
+<PART_OF id="P0" fromID="E0" fromText="Terms" toID="E2" toText="Spotify" relationship="part_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P1" fromID="E1" fromText="Conditions" toID="E2" toText="Spotify" relationship="part_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P3" fromID="E10" fromText="users" toID="E9" toText="networks" relationship="member_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P4" fromID="E4" fromText="cache" toID="E40" toText="client" relationship="part_of" negativity="positive" signal_list="S4" comment="" />
+<PART_OF id="P5" fromID="E41" fromText="files" toID="E42" toText="Linux" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P6" fromID="E8" fromText="service" toID="E7" toText="Spotify" relationship="part_of" negativity="positive" signal_list="S2" comment="" />
+<SIGNAL id="S0" start="153" end="155" text="'s" />
+<SIGNAL id="S1" start="238" end="240" text="of" />
+<SIGNAL id="S2" start="1116" end="1122" text="having" />
+<SIGNAL id="S3" start="1888" end="1893" text="where" />
+<SIGNAL id="S4" start="252" end="254" text="'s" />
+</TAGS>
+</PartML>

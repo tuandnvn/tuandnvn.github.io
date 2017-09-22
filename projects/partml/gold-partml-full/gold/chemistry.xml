@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PartML>
+<TEXT><![CDATA[
+Chemistry
+
+Chemistry, a branch of physical science, is the study of the composition, properties and behavior of matter.[1][2] Chemistry is concerned with atoms and their interactions with other atoms, and particularly with the properties of chemical bonds. Chemistry is also concerned with the interactions between atoms (or groups of atoms) and various forms of energy (e.g. photochemical reactions, changes in phases of matter, separation of mixtures, properties of polymers, etc.).
+Chemistry is sometimes called "the central science" because it bridges other natural sciences like physics, geology and biology with each other.[3][4] Chemistry is a branch of physical science but distinct from physics.[5]
+The etymology of the word chemistry has been much disputed.[6] The genesis of chemistry can be traced to certain practices, known as alchemy, which had been practiced for several millennia in various parts of the world, particularly the Middle East.[7]
+The current model of atomic structure is the quantum mechanical model.[36] Traditional chemistry starts with the study of elementary particles, atoms, molecules,[37] substances, metals, crystals and other aggregates of matter. This matter can be studied in solid, liquid, or gas states, in isolation or in combination. The interactions, reactions and transformations that are studied in chemistry are usually the result of interactions between atoms, leading to rearrangements of the chemical bonds which hold atoms together. Such behaviors are studied in a chemistry laboratory.
+The chemistry laboratory stereotypically uses various forms of laboratory glassware. However glassware is not central to chemistry, and a great deal of experimental (as well as applied/industrial) chemistry is done without it.
+A chemical reaction is a transformation of some substances into one or more different substances.[38] The basis of such a chemical transformation is the rearrangement of electrons in the chemical bonds between atoms. It can be symbolically depicted through a chemical equation, which usually involves atoms as subjects. The number of atoms on the left and the right in the equation for a chemical transformation is equal (when unequal, the transformation by definition is not chemical, but rather a nuclear reaction or radioactive decay). The type of chemical reactions a substance may undergo and the energy changes that may accompany it are constrained by certain basic rules, known as chemical laws.
+Energy and entropy considerations are invariably important in almost all chemical studies. Chemical substances are classified in terms of their structure, phase, as well as their chemical compositions. They can be analyzed using the tools of chemical analysis, e.g. spectroscopy and chromatography. Scientists engaged in chemical research are known as chemists.[39] Most chemists specialize in one or more sub-disciplines. Several concepts are essential for the study of chemistry; some of them are:[40]
+
+]]></TEXT>
+<TAGS>
+<ENTITY id="E0" start="12" end="21" text="Chemistry" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E1" start="44" end="51" text="science" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E2" start="1049" end="1058" text="chemistry" type="physical" reference_count="single" comment="" />
+<ENTITY id="E3" start="1075" end="1080" text="study" type="physical" reference_count="single" comment="" />
+<PART_OF id="P0" fromID="E0" fromText="Chemistry" toID="E1" toText="science" relationship="member_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P1" fromID="E3" fromText="study" toID="E2" toText="chemistry" relationship="part_of" negativity="positive" signal_list="S1" comment="" />
+<SIGNAL id="S0" start="25" end="31" text="branch" />
+<SIGNAL id="S1" start="1059" end="1065" text="starts" />
+</TAGS>
+</PartML>

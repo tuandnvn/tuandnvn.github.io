@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PartML>
+<TEXT><![CDATA[
+Gravel Road
+
+A gravel road is a type of unpaved road surfaced with gravel that has been brought to the site from a quarry or stream bed. They are common in less-developed nations, and also in the rural areas of developed nations such as Canada and the United States. In New Zealand, they are known as 'metal roads'. They may be referred to as 'dirt roads' in common speech, but that term is used more for unimproved roads with no surface material added. If well constructed and maintained, a gravel road is an all-weather road.
+
+The gravel used consists of irregular stones mixed with a varying amount of sand, silt, and clay, which can act as a binder. A gravel road is quite different from a 'gravel drive', popular as private driveways in the United Kingdom. This uses clean gravel consisting of uniform, rounded stones and small pebbles.
+
+Compared to sealed roads, which require large machinery to work and pour concrete or to lay and smooth a bitumen-based surface, gravel roads are easy and cheap to build. However, compared to dirt roads, all-weather gravel highways are quite expensive to build, as they require front loaders, dump trucks, graders and roadrollers to provide a base course of compacted earth or other material, sometimes macadamised, covered with one or more different layers of gravel. Graders are also used to produce a more extreme camber compared to a paved road to aid drainage, as well as construct drainage ditches and embankments in low-lying areas. Cellular confinement systems can be used to prevent the washboarding effect.
+
+In Africa and parts of Asia, laterite soils are used to build dirt roads. However laterite, called murram in East Africa, varies considerably in the proportion of stones (which are usually very small) to earth and sand. It ranges from a hard gravel to a softer earth embedded with small stones. Not all laterite and murram roads are therefore strictly gravel roads. Laterite and murram which contains a significant proportion of clay becomes very slippery when wet, and in the rainy season, it may be difficult even for four-wheel drive vehicles to avoid slipping off very cambered roads into the drainage ditches at the side of the road. As it dries out, such laterite can become very hard, like sun-dried bricks.
+
+]]></TEXT>
+<TAGS>
+<ENTITY id="E0" start="16" end="22" text="gravel" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E1" start="23" end="27" text="road" type="physical" reference_count="single" comment="" />
+<ENTITY id="E2" start="1" end="7" text="Gravel" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E3" start="8" end="12" text="Road" type="physical" reference_count="single" comment="" />
+<ENTITY id="E4" start="49" end="53" text="road" type="physical" reference_count="single" comment="" />
+<ENTITY id="E5" start="68" end="74" text="gravel" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E6" start="417" end="422" text="roads" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E7" start="439" end="447" text="material" type="physical" reference_count="single" comment="" />
+<ENTITY id="E8" start="493" end="499" text="gravel" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E9" start="500" end="504" text="road" type="physical" reference_count="single" comment="" />
+<ENTITY id="E10" start="534" end="540" text="gravel" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E11" start="568" end="574" text="stones" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E12" start="606" end="610" text="sand" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E13" start="612" end="616" text="silt" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E14" start="622" end="626" text="clay" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E15" start="657" end="663" text="gravel" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E16" start="664" end="668" text="road" type="physical" reference_count="single" comment="" />
+<ENTITY id="E17" start="696" end="702" text="gravel" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E18" start="703" end="708" text="drive" type="physical" reference_count="single" comment="" />
+<ENTITY id="E19" start="763" end="767" text="This" type="physical" reference_count="single" comment="" />
+<ENTITY id="E20" start="779" end="785" text="gravel" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E21" start="817" end="823" text="stones" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E22" start="834" end="841" text="pebbles" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E23" start="972" end="978" text="gravel" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E24" start="979" end="984" text="roads" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E25" start="1599" end="1604" text="soils" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E26" start="1628" end="1633" text="roads" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E28" start="1864" end="1872" text="laterite" type="physical" reference_count="single" comment="" />
+<ENTITY id="E29" start="1877" end="1883" text="murram" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E30" start="1884" end="1889" text="roads" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E31" start="1913" end="1919" text="gravel" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E32" start="1920" end="1925" text="roads" type="physical" reference_count="single" comment="" />
+<ENTITY id="E33" start="1927" end="1935" text="Laterite" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E34" start="1940" end="1946" text="murram" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E35" start="1990" end="1994" text="clay" type="physical" reference_count="single" comment="" />
+<ENTITY id="E36" start="2182" end="2186" text="side" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E38" start="2194" end="2198" text="road" type="physical" reference_count="single" comment="" />
+<PART_OF id="P0" fromID="E2" fromText="Gravel" toID="E3" toText="Road" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P1" fromID="E0" fromText="gravel" toID="E1" toText="road" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P2" fromID="E5" fromText="gravel" toID="E4" toText="road" relationship="part_of" negativity="positive" signal_list="S0,S1" comment="" />
+<PART_OF id="P3" fromID="E7" fromText="material" toID="E6" toText="roads" relationship="part_of" negativity="negative" signal_list="S2" comment="" />
+<PART_OF id="P4" fromID="E8" fromText="gravel" toID="E9" toText="road" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P5" fromID="E11" fromText="stones" toID="E10" toText="gravel" relationship="substance_of" negativity="positive" signal_list="S3,S4" comment="" />
+<PART_OF id="P6" fromID="E12" fromText="sand" toID="E10" toText="gravel" relationship="substance_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P7" fromID="E13" fromText="silt" toID="E10" toText="gravel" relationship="substance_of" negativity="positive" signal_list="S5,S6" comment="" />
+<PART_OF id="P8" fromID="E14" fromText="clay" toID="E10" toText="gravel" relationship="substance_of" negativity="positive" signal_list="S5,S6" comment="" />
+<PART_OF id="P9" fromID="E15" fromText="gravel" toID="E16" toText="road" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P10" fromID="E17" fromText="gravel" toID="E18" toText="drive" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P11" fromID="E20" fromText="gravel" toID="E19" toText="This" relationship="part_of" negativity="positive" signal_list="S7" comment="" />
+<PART_OF id="P12" fromID="E21" fromText="stones" toID="E20" toText="gravel" relationship="substance_of" negativity="positive" signal_list="S8,S9" comment="" />
+<PART_OF id="P13" fromID="E22" fromText="pebbles" toID="E20" toText="gravel" relationship="substance_of" negativity="positive" signal_list="S8,S9" comment="" />
+<PART_OF id="P14" fromID="E23" fromText="gravel" toID="E24" toText="roads" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P15" fromID="E25" fromText="soils" toID="E26" toText="roads" relationship="substance_of" negativity="positive" signal_list="S10" comment="" />
+<PART_OF id="P17" fromID="E28" fromText="laterite" toID="E30" toText="roads" relationship="substance_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P18" fromID="E31" fromText="gravel" toID="E32" toText="roads" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P19" fromID="E35" fromText="clay" toID="E33" toText="Laterite" relationship="part_of" negativity="positive" signal_list="S11" comment="" />
+<PART_OF id="P20" fromID="E35" fromText="clay" toID="E34" toText="murram" relationship="part_of" negativity="positive" signal_list="S11" comment="" />
+<PART_OF id="P21" fromID="E36" fromText="side" toID="E38" toText="road" relationship="part_of" negativity="positive" signal_list="S12" comment="" />
+<SIGNAL id="S0" start="54" end="62" text="surfaced" />
+<SIGNAL id="S1" start="63" end="67" text="with" />
+<SIGNAL id="S2" start="423" end="427" text="with" />
+<SIGNAL id="S3" start="546" end="554" text="consists" />
+<SIGNAL id="S4" start="555" end="557" text="of" />
+<SIGNAL id="S5" start="575" end="580" text="mixed" />
+<SIGNAL id="S6" start="581" end="585" text="with" />
+<SIGNAL id="S7" start="768" end="772" text="uses" />
+<SIGNAL id="S8" start="786" end="796" text="consisting" />
+<SIGNAL id="S9" start="797" end="799" text="of" />
+<SIGNAL id="S10" start="1617" end="1622" text="build" />
+<SIGNAL id="S11" start="1953" end="1961" text="contains" />
+<SIGNAL id="S12" start="2187" end="2189" text="of" />
+</TAGS>
+</PartML>

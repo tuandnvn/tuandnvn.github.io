@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PartML>
+<TEXT><![CDATA[
+Parliamentary System
+
+A parliamentary system is a system of democratic governance of a state in which the executive branch derives its democratic legitimacy from, and is held accountable to, the legislature (parliament); the executive and legislative branches are thus interconnected. In a parliamentary system, the head of state is normally a different person from the head of government. This is in contrast to a presidential system in a democracy, where the head of state often is also the head of government, and most importantly: the executive branch does not derive its democratic legitimacy from the legislature.
+Countries with parliamentary systems may be constitutional monarchies, where a monarch is the ceremonial head of state while the head of government is almost always a member of the legislature (such as United Kingdom, Sweden and Japan), or parliamentary republics, where a mostly ceremonial president is the head of state while the head of government is regularly from the legislature (such as Ireland, Poland, Germany, India and Italy). In a few parliamentary republics, such as South Africa and Botswana, the head of government is also head of state, but is elected by and is answerable to the legislature.
+
+]]></TEXT>
+<TAGS>
+<ENTITY id="E0" start="97" end="102" text="which" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E1" start="117" end="123" text="branch" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E2" start="252" end="260" text="branches" type="abstract" reference_count="multiple" comment="" />
+<ENTITY id="E3" start="317" end="321" text="head" type="physical" reference_count="single" comment="" />
+<ENTITY id="E4" start="325" end="330" text="state" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E5" start="371" end="375" text="head" type="physical" reference_count="single" comment="" />
+<ENTITY id="E7" start="379" end="389" text="government" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E8" start="462" end="466" text="head" type="physical" reference_count="single" comment="" />
+<ENTITY id="E9" start="470" end="475" text="state" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E10" start="494" end="498" text="head" type="physical" reference_count="single" comment="" />
+<ENTITY id="E11" start="502" end="512" text="government" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E12" start="692" end="697" text="where" type="abstract" reference_count="multiple" comment="" />
+<ENTITY id="E13" start="700" end="707" text="monarch" type="physical" reference_count="single" comment="" />
+<ENTITY id="E14" start="726" end="730" text="head" type="physical" reference_count="single" comment="" />
+<ENTITY id="E15" start="734" end="739" text="state" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E16" start="750" end="754" text="head" type="physical" reference_count="single" comment="" />
+<ENTITY id="E17" start="758" end="768" text="government" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E19" start="802" end="813" text="legislature" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E20" start="886" end="891" text="where" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E21" start="912" end="921" text="president" type="physical" reference_count="single" comment="" />
+<ENTITY id="E22" start="929" end="933" text="head" type="physical" reference_count="single" comment="" />
+<ENTITY id="E23" start="937" end="942" text="state" type="physical" reference_count="single" comment="" />
+<ENTITY id="E24" start="953" end="957" text="head" type="physical" reference_count="single" comment="" />
+<ENTITY id="E25" start="961" end="971" text="government" type="physical" reference_count="single" comment="" />
+<ENTITY id="E6" start="1132" end="1136" text="head" type="physical" reference_count="single" comment="" />
+<ENTITY id="E18" start="1140" end="1150" text="government" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E26" start="1159" end="1163" text="head" type="physical" reference_count="single" comment="" />
+<ENTITY id="E27" start="1167" end="1172" text="state" type="abstract" reference_count="single" comment="" />
+<PART_OF id="P0" fromID="E1" fromText="branch" toID="E0" toText="which" relationship="part_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P1" fromID="E2" fromText="branches" toID="E0" toText="which" relationship="part_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P2" fromID="E3" fromText="head" toID="E4" toText="state" relationship="part_of" negativity="positive" signal_list="S1" comment="state as a structure" />
+<PART_OF id="P3" fromID="E5" fromText="head" toID="E7" toText="government" relationship="part_of" negativity="positive" signal_list="S2" comment="" />
+<PART_OF id="P4" fromID="E8" fromText="head" toID="E9" toText="state" relationship="part_of" negativity="positive" signal_list="S3" comment="" />
+<PART_OF id="P5" fromID="E10" fromText="head" toID="E11" toText="government" relationship="part_of" negativity="positive" signal_list="S4" comment="" />
+<PART_OF id="P6" fromID="E13" fromText="monarch" toID="E12" toText="where" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P7" fromID="E14" fromText="head" toID="E15" toText="state" relationship="part_of" negativity="positive" signal_list="S5" comment="" />
+<PART_OF id="P8" fromID="E16" fromText="head" toID="E17" toText="government" relationship="part_of" negativity="positive" signal_list="S6" comment="" />
+<PART_OF id="P9" fromID="E16" fromText="head" toID="E19" toText="legislature" relationship="member_of" negativity="positive" signal_list="S7" comment="" />
+<PART_OF id="P10" fromID="E21" fromText="president" toID="E20" toText="where" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P11" fromID="E22" fromText="head" toID="E23" toText="state" relationship="part_of" negativity="positive" signal_list="S8" comment="" />
+<PART_OF id="P12" fromID="E6" fromText="head" toID="E18" toText="government" relationship="part_of" negativity="positive" signal_list="S10" comment="" />
+<PART_OF id="P13" fromID="E26" fromText="head" toID="E27" toText="state" relationship="part_of" negativity="positive" signal_list="S11" comment="" />
+<SIGNAL id="S0" start="94" end="96" text="in" />
+<SIGNAL id="S1" start="322" end="324" text="of" />
+<SIGNAL id="S2" start="376" end="378" text="of" />
+<SIGNAL id="S3" start="467" end="469" text="of" />
+<SIGNAL id="S4" start="499" end="501" text="of" />
+<SIGNAL id="S5" start="731" end="733" text="of" />
+<SIGNAL id="S6" start="755" end="757" text="of" />
+<SIGNAL id="S7" start="788" end="794" text="member" />
+<SIGNAL id="S8" start="934" end="936" text="of" />
+<SIGNAL id="S9" start="958" end="960" text="of" />
+<SIGNAL id="S10" start="1137" end="1139" text="of" />
+<SIGNAL id="S11" start="1164" end="1166" text="of" />
+</TAGS>
+</PartML>

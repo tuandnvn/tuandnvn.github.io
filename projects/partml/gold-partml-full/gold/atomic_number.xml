@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PartML>
+<TEXT><![CDATA[
+Atomic Number
+
+In chemistry and physics, the atomic number (also known as the proton number) is the number of protons found in the nucleus of an atom and therefore identical to the charge number of the nucleus. It is conventionally represented by the symbol Z. The atomic number uniquely identifies a chemical element. In an atom of neutral charge, the atomic number is also equal to the number of electrons.
+The atomic number, Z, should not be confused with the mass number, A, which is the number of nucleons, the total number of protons and neutrons in the nucleus of an atom. The number of neutrons, N, is known as the neutron number of the atom; thus, A = Z + N. Since protons and neutrons have approximately the same mass (and the mass of the electrons is negligible for many purposes), and the mass defect is usually very small compared to the mass, the atomic mass of an atom is roughly equal to A.
+Atoms having the same atomic number Z but different neutron number N, and hence different atomic mass, are known as isotopes. Most naturally occurring elements exist as a mixture of isotopes, and the average atomic mass of this mixture determines the element's atomic weight.
+The conventional symbol Z comes from the German word Zahl meaning number/numeral/figure, which prior to the modern synthesis of ideas from chemistry and physics, merely denoted an element's numerical place in the periodic table. Only after 1915, with the suggestion and evidence that this Z number was also the nuclear charge and a physical characteristic of atoms, did the word Atomzahl and its English equivalent atomic number come into common use.
+
+]]></TEXT>
+<TAGS>
+<ENTITY id="E0" start="132" end="139" text="nucleus" type="physical" reference_count="single" comment="" />
+<ENTITY id="E1" start="146" end="150" text="atom" type="physical" reference_count="single" comment="" />
+<ENTITY id="E2" start="111" end="118" text="protons" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E5" start="326" end="330" text="atom" type="physical" reference_count="single" comment="" />
+<ENTITY id="E6" start="399" end="408" text="electrons" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E7" start="533" end="540" text="protons" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E8" start="545" end="553" text="neutrons" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E9" start="561" end="568" text="nucleus" type="physical" reference_count="single" comment="" />
+<ENTITY id="E10" start="575" end="579" text="atom" type="physical" reference_count="single" comment="" />
+<ENTITY id="E3" start="503" end="511" text="nucleons" type="physical" reference_count="single" comment="" />
+<PART_OF id="P0" fromID="E2" fromText="protons" toID="E0" toText="nucleus" relationship="part_of" negativity="positive" signal_list="S0, S1" comment="" />
+<PART_OF id="P1" fromID="E0" fromText="nucleus" toID="E1" toText="atom" relationship="part_of" negativity="positive" signal_list="S2" comment="" />
+<PART_OF id="P2" fromID="E6" fromText="electrons" toID="E5" toText="atom" relationship="part_of" negativity="positive" signal_list="S3" comment="" />
+<PART_OF id="P3" fromID="E7" fromText="protons" toID="E9" toText="nucleus" relationship="member_of" negativity="positive" signal_list="S4" comment="" />
+<PART_OF id="P4" fromID="E8" fromText="neutrons" toID="E9" toText="nucleus" relationship="member_of" negativity="positive" signal_list="S4" comment="" />
+<PART_OF id="P5" fromID="E9" fromText="nucleus" toID="E10" toText="atom" relationship="part_of" negativity="positive" signal_list="S5" comment="" />
+<PART_OF id="P6" fromID="E3" fromText="nucleons" toID="E9" toText="nucleus" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<SIGNAL id="S0" start="119" end="124" text="found" />
+<SIGNAL id="S1" start="125" end="127" text="in" />
+<SIGNAL id="S2" start="140" end="142" text="of" />
+<SIGNAL id="S3" start="320" end="322" text="In" />
+<SIGNAL id="S4" start="554" end="556" text="in" />
+<SIGNAL id="S5" start="569" end="571" text="of" />
+</TAGS>
+</PartML>

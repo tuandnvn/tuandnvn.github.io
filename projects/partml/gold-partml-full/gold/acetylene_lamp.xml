@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PartML>
+<TEXT><![CDATA[
+Acetylene Lamp
+
+He is a tall middle-aged man with a thin nose, large forehead, wide frowny eyes and often a small moustache with big glasses. He has a "notch" on the back of his head, and there is a running gag throughout Tezuka's work about how a lit candle will stand upright if placed in the notch on the back of one of this character's head (Tezuka even describes this in one of the manga, saying that he based the character on a classmate). In fact, almost every time Lamp appears in a story, there will be a panel showing him having a lit candle on this notch.
+
+]]></TEXT>
+<TAGS>
+<ENTITY id="E0" start="42" end="45" text="man" type="physical" reference_count="single" comment="" />
+<ENTITY id="E1" start="58" end="62" text="nose" type="physical" reference_count="single" comment="" />
+<ENTITY id="E2" start="70" end="78" text="forehead" type="physical" reference_count="single" comment="" />
+<ENTITY id="E3" start="92" end="96" text="eyes" type="physical" reference_count="single" comment="" />
+<ENTITY id="E4" start="115" end="124" text="moustache" type="physical" reference_count="single" comment="" />
+<ENTITY id="E5" start="134" end="141" text="glasses" type="physical" reference_count="single" comment="" />
+<ENTITY id="E6" start="153" end="158" text="notch" type="physical" reference_count="single" comment="" />
+<ENTITY id="E7" start="143" end="145" text="He" type="physical" reference_count="single" comment="" />
+<ENTITY id="E8" start="208" end="211" text="gag" type="physical" reference_count="single" comment="" />
+<ENTITY id="E9" start="232" end="236" text="work" type="physical" reference_count="single" comment="" />
+<ENTITY id="E10" start="309" end="313" text="back" type="physical" reference_count="single" comment="" />
+<ENTITY id="E11" start="341" end="345" text="head" type="physical" reference_count="single" comment="" />
+<PART_OF id="P0" fromID="E0" fromText="man" toID="E1" toText="nose" relationship="part_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P1" fromID="E0" fromText="man" toID="E2" toText="forehead" relationship="part_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P2" fromID="E0" fromText="man" toID="E3" toText="eyes" relationship="part_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P3" fromID="E0" fromText="man" toID="E4" toText="moustache" relationship="part_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P4" fromID="E4" fromText="moustache" toID="E5" toText="glasses" relationship="part_of" negativity="positive" signal_list="S1" comment="" />
+<PART_OF id="P5" fromID="E7" fromText="He" toID="E6" toText="notch" relationship="part_of" negativity="positive" signal_list="S2" comment="" />
+<PART_OF id="P6" fromID="E8" fromText="gag" toID="E9" toText="work" relationship="part_of" negativity="positive" signal_list="S3" comment="" />
+<PART_OF id="P7" fromID="E10" fromText="back" toID="E11" toText="head" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<SIGNAL id="S0" start="46" end="50" text="with" />
+<SIGNAL id="S1" start="125" end="129" text="with" />
+<SIGNAL id="S2" start="146" end="149" text="has" />
+<SIGNAL id="S3" start="212" end="222" text="throughout" />
+<SIGNAL id="S4" start="314" end="316" text="of" />
+</TAGS>
+</PartML>

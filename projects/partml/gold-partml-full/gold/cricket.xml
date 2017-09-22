@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PartML>
+<TEXT><![CDATA[
+Cricket
+
+Cricket is a bat-and-ball game played between two teams of 11 players on a field, at the centre of which is a rectangular 22-yard long pitch. One team bats, trying to score as many runs as possible while the other team bowls and fields, trying to dismiss the batsmen and thus limit the runs scored by the batting team. A run is scored by the striking batsman hitting the ball with his bat, running to the opposite end of the pitch and touching the crease there without being dismissed. The teams switch between batting and fielding at the end of an innings.
+
+In professional cricket the length of a game ranges from 20 overs of six bowling deliveries per side to Test cricket played over five days. The Laws of Cricket are maintained by the International Cricket Council (ICC) and the Marylebone Cricket Club (MCC) with additional Standard Playing Conditions for Test matches and One Day Internationals.
+
+The essence of the sport is that a bowler delivers the ball from his end of the pitch towards the batsman who, armed with a bat is "on strike" at the other end.
+
+The bat is made of wood (usually White Willow) and has the shape of a blade topped by a cylindrical handle. The blade must not be more than 4.25 inches (108 mm) wide and the total length of the bat not more than 38 inches (970 mm).
+
+The ball is a hard leather-seamed spheroid, with a circumference of 9 inches (230 mm). The hardness of the ball, which can be delivered at speeds of more than 90 miles per hour (140 km/h), is a matter for concern and batsmen wear protective clothing including pads (designed to protect the knees and shins), batting gloves for the hands, a helmet for the head and a box inside the trousers (to protect the crotch area). Some batsmen wear additional padding inside their shirts and trousers such as thigh pads, arm pads, rib protectors and shoulder pads. The ball has a "seam": six rows of stitches attaching the leather shell of the ball to the string and cork interior. The seam on a new ball is prominent, and helps the bowler propel it in a less predictable manner. During cricket matches, the quality of the ball changes to a point where it is no longer usable, and during this decline its properties alter and thus influence the match.
+
+Unlike those of most sports, cricket playing fields can vary significantly in size and shape. While the dimensions of the pitch and infield are specifically regulated, the Laws of Cricket do not specify the size or shape of the field. The field boundaries are sometimes painted and sometimes marked by a rope. Pitch and outfield variations can have a significant effect on how balls behave and are fielded as well as on batting. Pitches vary in consistency, and thus in the amount of bounce, spin, and seam movement available to the bowler. Hard pitches are usually good to bat on because of high but even bounce. Dry pitches tend to deteriorate for batting as cracks often appear, and when this happens to the pitch, spinners can play a major role. Damp pitches, or pitches covered in grass (termed "green" pitches), allow good fast bowlers to extract extra bounce. Such pitches tend to offer help to fast bowlers throughout the match, but become better for batting as the game goes on. While players of other outdoor sports deal with similar variations of field surface and stadium covering, the size and shape of their fields are much more standardised. Other local factors, such as altitude and climate, can also significantly affect play. These physical variations create a distinctive set of playing conditions at each ground. A given ground may acquire a reputation as batsman friendly or bowler friendly if one or the other discipline notably benefits from its unique mix of elements. The absence of a standardised field affects not only how particular games play out, but the nature of team makeup and players' statistical records.
+
+]]></TEXT>
+<TAGS>
+<ENTITY id="E0" start="85" end="90" text="field" type="physical" reference_count="single" comment="" />
+<ENTITY id="E1" start="145" end="150" text="pitch" type="physical" reference_count="single" comment="" />
+<ENTITY id="E2" start="1081" end="1084" text="bat" type="physical" reference_count="single" comment="" />
+<ENTITY id="E3" start="1096" end="1100" text="wood" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E18" start="458" end="464" text="crease" type="physical" reference_count="single" comment="" />
+<ENTITY id="E19" start="435" end="440" text="pitch" type="physical" reference_count="single" comment="" />
+<ENTITY id="E20" start="1177" end="1183" text="handle" type="physical" reference_count="single" comment="" />
+<ENTITY id="E21" start="1329" end="1336" text="leather" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E22" start="1314" end="1318" text="ball" type="physical" reference_count="single" comment="" />
+<ENTITY id="E23" start="1868" end="1872" text="ball" type="physical" reference_count="single" comment="" />
+<ENTITY id="E24" start="1880" end="1884" text="seam" type="physical" reference_count="single" comment="" />
+<ENTITY id="E25" start="1899" end="1907" text="stitches" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E26" start="1922" end="1929" text="leather" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E27" start="1930" end="1935" text="shell" type="physical" reference_count="single" comment="" />
+<ENTITY id="E28" start="1943" end="1947" text="ball" type="physical" reference_count="single" comment="" />
+<ENTITY id="E29" start="1955" end="1961" text="string" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E30" start="1966" end="1970" text="cork" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E31" start="1971" end="1979" text="interior" type="physical" reference_count="single" comment="" />
+<ENTITY id="E32" start="1985" end="1989" text="seam" type="physical" reference_count="single" comment="" />
+<ENTITY id="E33" start="1999" end="2003" text="ball" type="physical" reference_count="single" comment="" />
+<ENTITY id="E34" start="3019" end="3026" text="pitches" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E35" start="3038" end="3043" text="grass" type="physical" reference_count="mass" comment="" />
+<PART_OF id="P0" fromID="E1" fromText="pitch" toID="E0" toText="field" relationship="part_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P1" fromID="E3" fromText="wood" toID="E2" toText="bat" relationship="substance_of" negativity="positive" signal_list="S1" comment="" />
+<PART_OF id="P8" fromID="E18" fromText="crease" toID="E19" toText="pitch" relationship="part_of" negativity="positive" signal_list="S10" comment="" />
+<PART_OF id="P11" fromID="E20" fromText="handle" toID="E2" toText="bat" relationship="part_of" negativity="positive" signal_list="S11" comment="" />
+<PART_OF id="P12" fromID="E21" fromText="leather" toID="E22" toText="ball" relationship="substance_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P13" fromID="E24" fromText="seam" toID="E23" toText="ball" relationship="part_of" negativity="positive" signal_list="S12" comment="" />
+<PART_OF id="P14" fromID="E25" fromText="stitches" toID="E24" toText="seam" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P15" fromID="E26" fromText="leather" toID="E27" toText="shell" relationship="substance_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P16" fromID="E27" fromText="shell" toID="E28" toText="ball" relationship="part_of" negativity="positive" signal_list="S13" comment="" />
+<PART_OF id="P17" fromID="E30" fromText="cork" toID="E31" toText="interior" relationship="substance_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P18" fromID="E28" fromText="ball" toID="E31" toText="interior" relationship="substance_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P19" fromID="E31" fromText="interior" toID="E28" toText="ball" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P20" fromID="E32" fromText="seam" toID="E33" toText="ball" relationship="part_of" negativity="positive" signal_list="S14" comment="" />
+<PART_OF id="P21" fromID="E35" fromText="grass" toID="E34" toText="pitches" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<SIGNAL id="S0" start="99" end="105" text="centre" />
+<SIGNAL id="S1" start="1088" end="1092" text="made" />
+<SIGNAL id="S10" start="465" end="470" text="there" />
+<SIGNAL id="S11" start="1153" end="1162" text="topped by" />
+<SIGNAL id="S12" start="1873" end="1876" text="has" />
+<SIGNAL id="S13" start="1936" end="1938" text="of" />
+<SIGNAL id="S14" start="1990" end="1992" text="on" />
+<SIGNAL id="S15" start="3027" end="3037" text="covered in" />
+</TAGS>
+</PartML>

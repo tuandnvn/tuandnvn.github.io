@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PartML>
+<TEXT><![CDATA[
+Insect
+
+Insects are a class of invertebrates within the arthropod phylum that have a chitinous exoskeleton, a three-part body (head, thorax and abdomen), three pairs of jointed legs, compound eyes and one pair of antennae. They are among the most diverse groups of animals on the planet, including more than a million described species and representing more than half of all known living organisms. The number of extant species is estimated at between six and ten million, and potentially represent over 90% of the differing metazoan life forms on Earth. Insects may be found in nearly all environments, although only a small number of species reside in the oceans, a habitat dominated by another arthropod group, crustaceans.
+
+The life cycles of insects vary (from one day to a few years), but most insects hatch from eggs. Insect growth is constrained by the inelastic exoskeleton and development involves a series of molts. The immature stages can differ from the adults in structure, habit and habitat, and can include a
+]]></TEXT>
+<TAGS>
+<ENTITY id="E0" start="74" end="78" text="that" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E1" start="96" end="107" text="exoskeleton" type="physical" reference_count="single" comment="" />
+<ENTITY id="E2" start="122" end="126" text="body" type="physical" reference_count="single" comment="" />
+<ENTITY id="E4" start="128" end="132" text="head" type="physical" reference_count="single" comment="" />
+<ENTITY id="E5" start="134" end="140" text="thorax" type="physical" reference_count="single" comment="" />
+<ENTITY id="E6" start="145" end="152" text="abdomen" type="physical" reference_count="single" comment="" />
+<ENTITY id="E7" start="161" end="166" text="pairs" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E8" start="178" end="182" text="legs" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E9" start="193" end="197" text="eyes" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E10" start="206" end="210" text="pair" type="physical" reference_count="single" comment="" />
+<ENTITY id="E11" start="214" end="222" text="antennae" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E12" start="256" end="262" text="groups" type="abstract" reference_count="multiple" comment="" />
+<ENTITY id="E13" start="266" end="273" text="animals" type="physical" reference_count="multiple" comment="" />
+<PART_OF id="P0" fromID="E1" fromText="exoskeleton" toID="E0" toText="that" relationship="part_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P1" fromID="E2" fromText="body" toID="E0" toText="that" relationship="part_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P2" fromID="E7" fromText="pairs" toID="E0" toText="that" relationship="part_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P3" fromID="E9" fromText="eyes" toID="E0" toText="that" relationship="part_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P4" fromID="E10" fromText="pair" toID="E0" toText="that" relationship="part_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P5" fromID="E4" fromText="head" toID="E2" toText="body" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P6" fromID="E5" fromText="thorax" toID="E2" toText="body" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P7" fromID="E6" fromText="abdomen" toID="E2" toText="body" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P8" fromID="E8" fromText="legs" toID="E7" toText="pairs" relationship="member_of" negativity="positive" signal_list="S1" comment="" />
+<PART_OF id="P9" fromID="E11" fromText="antennae" toID="E10" toText="pair" relationship="member_of" negativity="positive" signal_list="S2" comment="" />
+<PART_OF id="P10" fromID="E13" fromText="animals" toID="E12" toText="groups" relationship="member_of" negativity="positive" signal_list="S3" comment="" />
+<SIGNAL id="S0" start="79" end="83" text="have" />
+<SIGNAL id="S1" start="167" end="169" text="of" />
+<SIGNAL id="S2" start="211" end="213" text="of" />
+<SIGNAL id="S3" start="263" end="265" text="of" />
+</TAGS>
+</PartML>

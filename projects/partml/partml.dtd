@@ -1,0 +1,16 @@
+<!ENTITY name "PartML">
+
+<!ELEMENT ENTITY ( #PCDATA ) >
+<!ATTLIST ENTITY start #IMPLIED >
+<!ATTLIST ENTITY type ( concrete | abstract | other ) #IMPLIED "concrete" >
+<!ATTLIST ENTITY reference_count ( single | multiple | mass | zero | ambiguous ) #IMPLIED "single" >
+<!ATTLIST ENTITY comment CDATA "" >
+
+<!ELEMENT PART_OF EMPTY >
+<!ATTLIST PART_OF relationship ( part_of | member_of | substance_of | other ) #IMPLIED "part_of" >
+<!ATTLIST PART_OF negativity ( positive | negative) #IMPLIED "positive" >
+<!ATTLIST PART_OF signal_list CDATA "" >
+<!ATTLIST PART_OF comment CDATA "" >
+
+<!ELEMENT SIGNAL ( #PCDATA) >
+<!ATTLIST SIGNAL start #IMPLIED >

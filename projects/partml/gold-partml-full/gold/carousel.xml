@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PartML>
+<TEXT><![CDATA[
+Carousel
+
+A carousel (from French carrousel, from Italian carosello), or merry-go-round, is an amusement ride consisting of a rotating circular platform with seats for riders. The "seats" are traditionally in the form of rows of wooden horses or other animals mounted on posts, many of which are moved up and down by gearwork to simulate galloping, to the accompaniment of looped circus music. This leads to one of the alternative names, the galloper. Other popular names are jumper, roundabout, horseabout and flying horses.
+
+Carousels are commonly populated with horses, each horse weighing roughly 100 lbs (45 kg), but may include diverse varieties of mounts, like pigs, zebras, tigers, mythological creatures (such as dragons, sea monsters or unicorns), and deer, to name a few. Sometimes, chairlike or benchlike seats are used as well, and occasionally mounts can be shaped like airplanes or cars.
+
+Any rotating platform may also be called a carousel. In a playground, a roundabout or merry-go-round is usually a simple, child-powered rotating platform with bars or handles to which children can cling while riding. At an airport, rotating conveyors in the baggage claim area are often called carousels.  Various photographic slide projectors, notably those made by Kodak until 2004, used rotating trays or magazines called carousels to hold the slides and were often known as "carousel projectors".
+
+The earliest known depiction of a carousel is in a Byzantine bas-relief dating to around 500 A.D., which depicts riders in baskets suspended from a central pole. The word carousel originates from the Italian garosello and Spanish carosella ("little battle"), used by crusaders to describe a combat preparation exercise and game played by Turkish and Arabian horsemen in the 12th century. In a sense this early device could be considered a cavalry training mechanism; it prepared and strengthened the riders for actual combat as they wielded their swords at the mock enemies. European Crusaders discovered this device and brought the idea back to their own lands. A carousel was also a training device for the ring-tilt, consisting of wooden horses suspended from arms branching from a central pole. Riders aimed to spear rings situated around the circumference as the carousel was moved by a man, horse, or mule.
+
+Carousel was also the term for large "horse ballet" or Musical Ride spectacles mounted as part of the court festivities for special occasions such as royal weddings or state visits from the mid-16th century onwards, which gradually replaced serious jousting, although non-combat competitions such as the ring-tilt lasted until the 18th century. They were developed in Italy, especially by the Medici Grand Dukes in Florence, and the first French example was in Paris in 1605. These usually took place in squares or large courtyards, and consisted of elaborately costumed riders and horses (usually from the cavalry) performing choreographed routines such as forming shapes together, riding in lines criss-cross against each other. They often took place at night, with riders carrying torches, and were accompanied by music. From the 17th century large decorated floats with allegorical figures were often included. The Place du Carrousel in Paris was so named from 1662, when it was used for such a display by Louis XIV.
+
+In 1620 the English traveller Peter Munday described a carousel ride he saw in modern Bulgaria, then part of the Ottoman Empire. By the early 18th century carousels were being built and operated at various fairs and gatherings in central Europe and England. For example, by 1745 AD, wagon-maker Michael Dentzel had converted his wagon-making business in what is now southern Germany to a carousel-making enterprise. Animals and mechanisms would be crafted during the winter months and the family and workers would go touring in their wagon train through the region, operating their large menagerie carousel at various venues. Other makers such as Heyn in Germany and Bayol in France were also beginning to make carousels at this time. In its own unique style, England was also rapidly developing a carousel-making tradition.
+
+Early carousels had no platforms: the animals would hang on poles or chains and fly out from the centrifugal force of the spinning mechanism; these are called "flying horses" carousels. They were often powered by animals walking in a circle or people pulling a rope or cranking. By the mid-19th century the platform carousel was developed where the animals and chariots would travel around in a circle sitting on a suspended circular floor which was hanging from the centre pole. The first known recorded steam-powered carousel was created by Thomas Hurst and shown at Bolton (Lancashire, England) New Year Fair in 1861. Eventually, with the technological advances of the industrial revolution, bevel gears and offset cranks were installed on these platform carousels, thus giving the animals their well-known up-and-down motion as they travelled around the centre pole. The platform served as a position guide for the bottom of the pole and as a place for people to walk or other stationary animals or chariots to be placed. Fairground organs (band organs) were often present (if not built in) when these machines operated. Eventually electric motors were installed and electric lights added, giving the carousel its classic look.
+
+]]></TEXT>
+<TAGS>
+<ENTITY id="E0" start="106" end="110" text="ride" type="physical" reference_count="single" comment="" />
+<ENTITY id="E1" start="145" end="153" text="platform" type="physical" reference_count="single" comment="" />
+<ENTITY id="E2" start="159" end="164" text="seats" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E3" start="182" end="187" text="seats" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E4" start="222" end="226" text="rows" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E5" start="237" end="243" text="horses" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E6" start="253" end="260" text="animals" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E7" start="528" end="537" text="Carousels" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E8" start="566" end="572" text="horses" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E9" start="656" end="662" text="mounts" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E10" start="669" end="673" text="pigs" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E11" start="675" end="681" text="zebras" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E12" start="683" end="689" text="tigers" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E13" start="704" end="713" text="creatures" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E14" start="723" end="730" text="dragons" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E15" start="736" end="744" text="monsters" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E16" start="748" end="756" text="unicorns" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E17" start="763" end="767" text="deer" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E18" start="1050" end="1058" text="platform" type="physical" reference_count="single" comment="" />
+<ENTITY id="E19" start="1064" end="1068" text="bars" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E20" start="1072" end="1079" text="handles" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E21" start="4175" end="4184" text="carousels" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E22" start="4192" end="4201" text="platforms" type="physical" reference_count="zero" comment="" />
+<ENTITY id="E23" start="4870" end="4875" text="gears" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E24" start="4887" end="4893" text="cranks" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E25" start="4927" end="4936" text="carousels" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E26" start="818" end="823" text="seats" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E27" start="859" end="865" text="mounts" type="physical" reference_count="single" comment="" />
+<ENTITY id="E28" start="1304" end="1309" text="trays" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E29" start="1313" end="1322" text="magazines" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E30" start="1238" end="1248" text="projectors" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E31" start="2072" end="2080" text="carousel" type="physical" reference_count="single" comment="" />
+<ENTITY id="E32" start="2148" end="2154" text="horses" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E33" start="2170" end="2174" text="arms" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E34" start="2200" end="2204" text="pole" type="physical" reference_count="single" comment="" />
+<ENTITY id="E35" start="4485" end="4493" text="carousel" type="physical" reference_count="single" comment="" />
+<ENTITY id="E36" start="4518" end="4525" text="animals" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E37" start="4530" end="4538" text="chariots" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E38" start="4603" end="4608" text="floor" type="physical" reference_count="single" comment="" />
+<ENTITY id="E39" start="4643" end="4647" text="pole" type="physical" reference_count="single" comment="" />
+<ENTITY id="E40" start="5374" end="5382" text="carousel" type="physical" reference_count="single" comment="" />
+<ENTITY id="E41" start="5314" end="5320" text="motors" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E42" start="5349" end="5355" text="lights" type="physical" reference_count="multiple" comment="" />
+<PART_OF id="P0" fromID="E1" fromText="platform" toID="E0" toText="ride" relationship="part_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P1" fromID="E2" fromText="seats" toID="E1" toText="platform" relationship="part_of" negativity="positive" signal_list="S1" comment="" />
+<PART_OF id="P3" fromID="E5" fromText="horses" toID="E4" toText="rows" relationship="member_of" negativity="positive" signal_list="S3" comment="" />
+<PART_OF id="P4" fromID="E6" fromText="animals" toID="E4" toText="rows" relationship="member_of" negativity="positive" signal_list="S3" comment="" />
+<PART_OF id="P5" fromID="E8" fromText="horses" toID="E7" toText="Carousels" relationship="part_of" negativity="positive" signal_list="S4" comment="" />
+<PART_OF id="P6" fromID="E9" fromText="mounts" toID="E7" toText="Carousels" relationship="part_of" negativity="positive" signal_list="S5" comment="" />
+<PART_OF id="P7" fromID="E10" fromText="pigs" toID="E7" toText="Carousels" relationship="part_of" negativity="positive" signal_list="S5" comment="" />
+<PART_OF id="P8" fromID="E11" fromText="zebras" toID="E7" toText="Carousels" relationship="part_of" negativity="positive" signal_list="S5" comment="" />
+<PART_OF id="P9" fromID="E12" fromText="tigers" toID="E7" toText="Carousels" relationship="part_of" negativity="positive" signal_list="S5" comment="" />
+<PART_OF id="P10" fromID="E13" fromText="creatures" toID="E7" toText="Carousels" relationship="part_of" negativity="positive" signal_list="S5" comment="" />
+<PART_OF id="P11" fromID="E14" fromText="dragons" toID="E7" toText="Carousels" relationship="part_of" negativity="positive" signal_list="S5" comment="" />
+<PART_OF id="P12" fromID="E15" fromText="monsters" toID="E7" toText="Carousels" relationship="part_of" negativity="positive" signal_list="S5" comment="" />
+<PART_OF id="P13" fromID="E16" fromText="unicorns" toID="E7" toText="Carousels" relationship="part_of" negativity="positive" signal_list="S5" comment="" />
+<PART_OF id="P14" fromID="E17" fromText="deer" toID="E7" toText="Carousels" relationship="part_of" negativity="positive" signal_list="S5" comment="" />
+<PART_OF id="P15" fromID="E19" fromText="bars" toID="E18" toText="platform" relationship="part_of" negativity="positive" signal_list="S6" comment="" />
+<PART_OF id="P16" fromID="E20" fromText="handles" toID="E18" toText="platform" relationship="part_of" negativity="positive" signal_list="S6" comment="" />
+<PART_OF id="P17" fromID="E22" fromText="platforms" toID="E21" toText="carousels" relationship="part_of" negativity="negative" signal_list="S7" comment="" />
+<PART_OF id="P18" fromID="E24" fromText="cranks" toID="E25" toText="carousels" relationship="part_of" negativity="positive" signal_list="S8" comment="" />
+<PART_OF id="P19" fromID="E23" fromText="gears" toID="E25" toText="carousels" relationship="part_of" negativity="positive" signal_list="S8" comment="" />
+<PART_OF id="P20" fromID="E4" fromText="rows" toID="E3" toText="seats" relationship="member_of" negativity="positive" signal_list="S2" comment="" />
+<PART_OF id="P21" fromID="E26" fromText="seats" toID="E7" toText="Carousels" relationship="part_of" negativity="positive" signal_list="S10" comment="" />
+<PART_OF id="P22" fromID="E27" fromText="mounts" toID="E7" toText="Carousels" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P23" fromID="E28" fromText="trays" toID="E30" toText="projectors" relationship="part_of" negativity="positive" signal_list="S11" comment="" />
+<PART_OF id="P24" fromID="E29" fromText="magazines" toID="E30" toText="projectors" relationship="part_of" negativity="positive" signal_list="S11" comment="" />
+<PART_OF id="P25" fromID="E32" fromText="horses" toID="E31" toText="carousel" relationship="part_of" negativity="positive" signal_list="S12" comment="" />
+<PART_OF id="P26" fromID="E33" fromText="arms" toID="E31" toText="carousel" relationship="part_of" negativity="positive" signal_list="S12" comment="" />
+<PART_OF id="P27" fromID="E34" fromText="pole" toID="E31" toText="carousel" relationship="part_of" negativity="positive" signal_list="S12" comment="" />
+<PART_OF id="P28" fromID="E36" fromText="animals" toID="E35" toText="carousel" relationship="part_of" negativity="positive" signal_list="S13" comment="" />
+<PART_OF id="P29" fromID="E37" fromText="chariots" toID="E35" toText="carousel" relationship="part_of" negativity="positive" signal_list="S13" comment="" />
+<PART_OF id="P30" fromID="E38" fromText="floor" toID="E35" toText="carousel" relationship="part_of" negativity="positive" signal_list="S13" comment="" />
+<PART_OF id="P31" fromID="E39" fromText="pole" toID="E35" toText="carousel" relationship="part_of" negativity="positive" signal_list="S13" comment="" />
+<PART_OF id="P32" fromID="E41" fromText="motors" toID="E40" toText="carousel" relationship="part_of" negativity="positive" signal_list="S14" comment="" />
+<PART_OF id="P33" fromID="E42" fromText="lights" toID="E40" toText="carousel" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<SIGNAL id="S0" start="111" end="121" text="consisting" />
+<SIGNAL id="S1" start="154" end="158" text="with" />
+<SIGNAL id="S2" start="214" end="218" text="form" />
+<SIGNAL id="S3" start="227" end="229" text="of" />
+<SIGNAL id="S4" start="561" end="565" text="with" />
+<SIGNAL id="S5" start="627" end="634" text="include" />
+<SIGNAL id="S6" start="1059" end="1063" text="with" />
+<SIGNAL id="S7" start="4185" end="4188" text="had" />
+<SIGNAL id="S8" start="4899" end="4908" text="installed" />
+<SIGNAL id="S10" start="828" end="832" text="used" />
+<SIGNAL id="S11" start="1290" end="1294" text="used" />
+<SIGNAL id="S12" start="2127" end="2140" text="consisting of" />
+<SIGNAL id="S13" start="4508" end="4513" text="where" />
+<SIGNAL id="S14" start="5326" end="5335" text="installed" />
+<SIGNAL id="S15" start="5356" end="5361" text="added" />
+</TAGS>
+</PartML>

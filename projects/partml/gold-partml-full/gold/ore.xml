@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PartML>
+<TEXT><![CDATA[
+Ore
+
+An ore is a type of rock that contains minerals with important elements including metals. The ores are extracted through mining; these are then refined to extract the valuable element(s).
+
+The grade or concentration of an ore mineral, or metal, as well as its form of occurrence, will directly affect the costs associated with mining the ore. The cost of extraction must thus be weighed against the metal value contained in the rock to determine what ore can be processed and what ore is of too low a grade to be worth mining. Metal ores are generally oxides, sulfides, silicates, or "native" metals (such as native copper) that are not commonly concentrated in the Earth's crust or "noble" metals (not usually forming compounds) such as gold. The ores must be processed to extract the metals of interest from the waste rock and from the ore minerals. Ore bodies are formed by a variety of geological processes. The process of ore formation is called ore genesis.
+
+An ore deposit is an accumulation of ore. Now this is distinct from a mineral resource as defined by the mineral resource classification criteria. An ore deposit is one occurrence of a particular ore type. Most ore deposits are named according to either their location (for example, the Witswatersrand, South Africa), or after a discoverer (e.g. the kambalda nickel shoots are named after drillers), or after some whimsy, a historical figure, a prominent person, something from mythology (phoenix, kraken, serepentleopard, etc.) or the code name of the resource company which found it (e.g. MKD-5 is the in-house name for the Mount Keith nickel ).
+
+]]></TEXT>
+<TAGS>
+<ENTITY id="E0" start="26" end="30" text="rock" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E1" start="45" end="53" text="minerals" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E2" start="69" end="77" text="elements" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E3" start="88" end="94" text="metals" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E4" start="135" end="140" text="these" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E5" start="182" end="189" text="element" type="physical" reference_count="single" comment="" />
+<ENTITY id="E6" start="792" end="798" text="metals" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E7" start="754" end="758" text="ores" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E8" start="978" end="985" text="deposit" type="physical" reference_count="single" comment="" />
+<ENTITY id="E9" start="1008" end="1011" text="ore" type="physical" reference_count="single" comment="" />
+<PART_OF id="P0" fromID="E1" fromText="minerals" toID="E0" toText="rock" relationship="substance_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P1" fromID="E2" fromText="elements" toID="E1" toText="minerals" relationship="substance_of" negativity="positive" signal_list="S1" comment="" />
+<PART_OF id="P2" fromID="E3" fromText="metals" toID="E2" toText="elements" relationship="member_of" negativity="positive" signal_list="S2" comment="" />
+<PART_OF id="P3" fromID="E5" fromText="element" toID="E4" toText="these" relationship="substance_of" negativity="positive" signal_list="S3" comment="" />
+<PART_OF id="P4" fromID="E6" fromText="metals" toID="E7" toText="ores" relationship="substance_of" negativity="positive" signal_list="S4" comment="" />
+<PART_OF id="P5" fromID="E9" fromText="ore" toID="E8" toText="deposit" relationship="substance_of" negativity="positive" signal_list="S5 S6" comment="" />
+
+<SIGNAL id="S0" start="36" end="44" text="contains" />
+<SIGNAL id="S1" start="54" end="58" text="with" />
+<SIGNAL id="S2" start="78" end="87" text="including" />
+<SIGNAL id="S3" start="161" end="168" text="extract" />
+<SIGNAL id="S4" start="780" end="787" text="extract" />
+<SIGNAL id="S5" start="992" end="1004" text="accumulation" />
+<SIGNAL id="S6" start="1005" end="1007" text="of" />
+<SIGNAL id="S7" start="1517" end="1519" text="of" />
+<SIGNAL id="S8" start="1589" end="1592" text="for" />
+</TAGS>
+</PartML>

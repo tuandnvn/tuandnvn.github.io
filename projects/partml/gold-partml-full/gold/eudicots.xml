@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PartML>
+<TEXT><![CDATA[
+Eudicots
+
+The Eudicots, Eudicotidae or Eudicotyledons are a monophyletic clade of flowering plants that had been called tricolpates or non-magnoliid dicots by previous authors. The botanical terms were introduced in 1991 by evolutionary botanist James A. Doyle and paleobotanist Carol L. Hotton to emphasize the later evolutionary divergence of tricolpate dicots from earlier, less specialized, dicots.[1] The close relationships among flowering plants with tricolpate pollen grains was initially seen in morphological studies of shared derived characters. These plants have a distinct trait in their pollen grains of exhibiting three colpi or grooves paralleling the polar axis. Later molecular evidence confirmed the genetic basis for the evolutionary relationships among flowering plants with tricolpate pollen grains and dicotyledonous traits. The term means "true dicotyledons" as it contains the majority of plants that have been considered dicots and have characteristics of the dicots. The term "eudicots" has subsequently been widely adopted in botany to refer to one of the two largest clades of angiosperms (constituting over 70% of angiosperm species), monocots being the other. The remaining angiosperms are sometimes referred to as basal angiosperms or paleodicots but these terms have not been widely or consistently adopted as they do not refer to a monophyletic group.
+The other name for the eudicots is tricolpates, a name which refers to the grooved structure of the pollen. Members of the group have tricolpate pollen, or forms derived from it. These pollen have three or more pores set in furrows called colpi. In contrast, most of the other seed plants (that is the gymnosperms, the monocots and the paleodicots) produce monosulcate pollen, with a single pore set in a differently oriented groove called the sulcus. The name "tricolpates" is preferred by some botanists in order to avoid confusion with the dicots, a non-monophyletic group (Judd & Olmstead 2004).
+Numerous familiar plants are eudicots, including many common food plants, trees, and ornamentals. Some common and familiar eudicots include members of the sunflower family such as the common dandelion, the forget-me-not, cabbage and other members of the its family, apple, buttercup, maple and macadamia. Most leafy trees of mid-latitudes also belong to eudicots, with notable exceptions being magnolias and tulip trees which belong to magnoliids, and Ginkgo biloba which is not an angiosperm.
+The name "eudicots" (plural) is used in the APG system, of 1998, and APG II system, of 2003, for classification of angiosperms. It is applied to a clade, a monophyletic group, which includes most of the (former) dicots.
+
+]]></TEXT>
+<TAGS>
+<ENTITY id="E0" start="602" end="608" text="pollen" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E1" start="609" end="615" text="grains" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E3" start="785" end="791" text="plants" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E4" start="815" end="821" text="grains" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E5" start="808" end="814" text="pollen" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E6" start="1470" end="1479" text="structure" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E7" start="1487" end="1493" text="pollen" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E8" start="1510" end="1515" text="group" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E9" start="1495" end="1502" text="Members" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E10" start="1532" end="1538" text="pollen" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E11" start="1543" end="1548" text="forms" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E12" start="636" end="641" text="colpi" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E13" start="645" end="652" text="grooves" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E14" start="1572" end="1578" text="pollen" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E15" start="1598" end="1603" text="pores" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E16" start="1626" end="1631" text="colpi" type="physical" reference_count="single" comment="" />
+<ENTITY id="E17" start="596" end="601" text="their" type="physical" reference_count="single" comment="" />
+<ENTITY id="E19" start="1783" end="1786" text="set" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E20" start="1778" end="1782" text="pore" type="physical" reference_count="single" comment="" />
+<ENTITY id="E21" start="1831" end="1837" text="sulcus" type="physical" reference_count="single" comment="" />
+<ENTITY id="E22" start="1756" end="1762" text="pollen" type="physical" reference_count="multiple" comment="" />
+<PART_OF id="P0" fromID="E0" fromText="pollen" toID="E1" toText="grains" relationship="substance_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P2" fromID="E5" fromText="pollen" toID="E4" toText="grains" relationship="substance_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P3" fromID="E4" fromText="grains" toID="E3" toText="plants" relationship="part_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P4" fromID="E6" fromText="structure" toID="E7" toText="pollen" relationship="part_of" negativity="positive" signal_list="S1" comment="" />
+<PART_OF id="P5" fromID="E9" fromText="Members" toID="E8" toText="group" relationship="member_of" negativity="positive" signal_list="S2" comment="" />
+<PART_OF id="P7" fromID="E10" fromText="pollen" toID="E9" toText="Members" relationship="part_of" negativity="positive" signal_list="S3" comment="" />
+<PART_OF id="P8" fromID="E11" fromText="forms" toID="E9" toText="Members" relationship="part_of" negativity="positive" signal_list="S3" comment="" />
+<PART_OF id="P9" fromID="E12" fromText="colpi" toID="E1" toText="grains" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P10" fromID="E13" fromText="grooves" toID="E1" toText="grains" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P11" fromID="E15" fromText="pores" toID="E14" toText="pollen" relationship="part_of" negativity="positive" signal_list="S6" comment="" />
+<PART_OF id="P12" fromID="E15" fromText="pores" toID="E16" toText="colpi" relationship="part_of" negativity="positive" signal_list="S7" comment="" />
+<PART_OF id="P13" fromID="E1" fromText="grains" toID="E17" toText="their" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P14" fromID="E20" fromText="pore" toID="E19" toText="set" relationship="member_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P15" fromID="E19" fromText="set" toID="E21" toText="sulcus" relationship="part_of" negativity="positive" signal_list="S11" comment="" />
+<PART_OF id="P16" fromID="E21" fromText="sulcus" toID="E22" toText="pollen" relationship="part_of" negativity="positive" signal_list="S10" comment="" />
+<SIGNAL id="S0" start="792" end="796" text="with" />
+<SIGNAL id="S1" start="1480" end="1482" text="of" />
+<SIGNAL id="S2" start="1503" end="1505" text="of" />
+<SIGNAL id="S3" start="1516" end="1520" text="have" />
+<SIGNAL id="S6" start="1579" end="1583" text="have" />
+<SIGNAL id="S7" start="1608" end="1610" text="in" />
+<SIGNAL id="S8" start="593" end="595" text="in" />
+<SIGNAL id="S10" start="1764" end="1768" text="with" />
+<SIGNAL id="S11" start="1787" end="1789" text="in" />
+</TAGS>
+</PartML>

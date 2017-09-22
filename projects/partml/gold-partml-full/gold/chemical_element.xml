@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PartML>
+<TEXT><![CDATA[
+Chemical Element
+
+A chemical element is a pure chemical substance consisting of one type of atom distinguished by its atomic number, which is the number of protons in its nucleus. Elements are divided into metals, metalloids, and non-metals. Familiar examples of elements include carbon, oxygen (non-metals), silicon, arsenic (metalloids), aluminium, iron, copper, gold, mercury, and lead (metals).
+The chemical elements are thought to have been produced by various cosmic processes, including hydrogen, helium (and smaller amounts of lithium, beryllium and boron) created during the Big Bang and cosmic-ray spallation. Production of heavier elements, from carbon to the very heaviest elements, proceeds by stellar nucleosynthesis, and these were made available for later solar system and planetary formation by planetary nebulae and supernovae, which blast these elements into space.[1] The high abundance of oxygen, silicon, and iron on Earth reflect their common production in such stars, after the lighter gaseous elements and their compounds have been subtracted. While most elements are generally viewed as stable, a small amount of natural transformation of one element to another also occurs in the present time, through decay of radioactive elements as well as other natural nuclear processes.
+The history of discovery and use of the elements began with primitive human societies that found native elements like copper and gold, and extracted (smelted) iron and a few other metals from their ores. Alchemists and chemists subsequently identified many more, with nearly all of the naturally-occurring elements known by 1900. The properties of the chemical elements are often summarized using the periodic table that organizes the elements by increasing atomic number into rows ("periods") in which the columns ("groups") share recurring ("periodic") physical and chemical properties. Save for short half-lived radioactive elements, all of the elements are available industrially, most to high degrees of purity.
+Hydrogen and helium are by far the most abundant elements in the universe. However, iron is the most abundant element (by mass) making up the Earth, and oxygen is the most common element in the Earth's crust.[2] Although all known chemical matter is composed of these elements, chemical matter itself is hypothesized to constitute only about 15% of the matter in the universe. The remainder is believed to be dark matter, a mysterious substance that is not composed of chemical elements, since it lacks protons, neutrons or electrons.[3]
+When two distinct elements are chemically combined, with the atoms held together by chemical bonds, the result is termed a chemical compound. Two thirds of the chemical elements occur on Earth only as compounds, and in the remaining third, often the compound forms of the element are most common.[citation needed] Chemical compounds may be composed of elements combined in exact whole-number ratios of atoms, as in water, table salt, and minerals as quartz, calcite, and some ores. However, chemical bonding of many types of elements results in crystalline solids and metallic alloys for which exact chemical formulas do not exist. Relatively pure samples of isolated elements are uncommon in nature. While all of the 98 naturally occurring elements have been identified in mineral samples from the Earth's crust, only a small minority of elements are found as recognizable, relative pure minerals. Among the more common of such "native elements" are copper, silver, gold, carbon (as coal, graphite, or diamonds), sulfur, and mercury. All but a few of the most inert elements, such as noble gases and noble metals, are usually found on Earth in chemically combined form, as chemical compounds. While about 32 of the chemical elements occur on Earth in native uncombined form, most of these occur as mixtures. For example, atmospheric air is primarily a mixture of nitrogen, oxygen, and argon, and native solid elements occur in alloys, such as that of iron and nickel.
+As of November 2011, 118 elements have been identified, the latest being ununseptium in 2010.[4] Of the 118 known elements, only the first 98 are known to occur naturally on Earth; 80 of them are stable, while the others are radioactive, decaying into lighter elements over various timescales from fractions of a second to billions of years. Those elements that do not occur naturally on Earth have been produced artificially as the synthetic products of man-made nuclear reactions.
+
+]]></TEXT>
+<TAGS>
+<ENTITY id="E0" start="57" end="66" text="substance" type="physical" reference_count="single" comment="" />
+<ENTITY id="E1" start="93" end="97" text="atom" type="physical" reference_count="single" comment="" />
+<ENTITY id="E4" start="168" end="171" text="its" type="physical" reference_count="single" comment="" />
+<ENTITY id="E5" start="172" end="179" text="nucleus" type="physical" reference_count="single" comment="" />
+<ENTITY id="E6" start="157" end="164" text="protons" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E7" start="1463" end="1467" text="iron" type="physical" reference_count="single" comment="" />
+<ENTITY id="E8" start="1484" end="1490" text="metals" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E9" start="1496" end="1501" text="their" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E10" start="1502" end="1506" text="ores" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E11" start="2131" end="2138" text="element" type="physical" reference_count="single" comment="" />
+<ENTITY id="E12" start="2163" end="2168" text="Earth" type="physical" reference_count="single" comment="" />
+<ENTITY id="E14" start="2200" end="2207" text="element" type="physical" reference_count="single" comment="" />
+<ENTITY id="E15" start="2215" end="2220" text="Earth" type="physical" reference_count="single" comment="" />
+<ENTITY id="E16" start="2223" end="2228" text="crust" type="physical" reference_count="single" comment="" />
+<ENTITY id="E17" start="2289" end="2297" text="elements" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E18" start="2261" end="2267" text="matter" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E19" start="2374" end="2380" text="matter" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E20" start="2388" end="2396" text="universe" type="physical" reference_count="single" comment="" />
+<ENTITY id="E21" start="2308" end="2314" text="matter" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E23" start="2435" end="2441" text="matter" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E24" start="2456" end="2465" text="substance" type="physical" reference_count="single" comment="" />
+<ENTITY id="E25" start="2499" end="2507" text="elements" type="physical" reference_count="single" comment="" />
+<ENTITY id="E26" start="2515" end="2517" text="it" type="physical" reference_count="single" comment="" />
+<ENTITY id="E27" start="2524" end="2531" text="protons" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E28" start="2533" end="2541" text="neutrons" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E29" start="2545" end="2554" text="electrons" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E30" start="2577" end="2585" text="elements" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E31" start="2691" end="2699" text="compound" type="physical" reference_count="single" comment="" />
+<ENTITY id="E33" start="2882" end="2891" text="compounds" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E34" start="2911" end="2919" text="elements" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E35" start="3358" end="3363" text="Earth" type="physical" reference_count="single" comment="" />
+<ENTITY id="E36" start="3366" end="3371" text="crust" type="physical" reference_count="single" comment="" />
+<ENTITY id="E37" start="3341" end="3348" text="samples" type="physical" reference_count="multiple" comment="" />
+<ENTITY id="E38" start="3893" end="3896" text="air" type="physical" reference_count="single" comment="" />
+<ENTITY id="E39" start="3923" end="3931" text="nitrogen" type="physical" reference_count="single" comment="" />
+<ENTITY id="E40" start="3933" end="3939" text="oxygen" type="physical" reference_count="single" comment="" />
+<ENTITY id="E41" start="3945" end="3950" text="argon" type="physical" reference_count="single" comment="" />
+<ENTITY id="E2" start="911" end="917" text="oxygen" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E3" start="919" end="926" text="silicon" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E13" start="932" end="936" text="iron" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E22" start="940" end="945" text="Earth" type="physical" reference_count="single" comment="" />
+<ENTITY id="E32" start="2105" end="2109" text="iron" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E42" start="4142" end="4150" text="elements" type="physical" reference_count="mass" comment="" />
+<ENTITY id="E43" start="4202" end="4207" text="Earth" type="physical" reference_count="single" comment="" />
+<ENTITY id="E44" start="4376" end="4384" text="elements" type="physical" reference_count="single" comment="" />
+<ENTITY id="E45" start="4416" end="4421" text="Earth" type="physical" reference_count="single" comment="" />
+<PART_OF id="P0" fromID="E1" fromText="atom" toID="E0" toText="substance" relationship="part_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P2" fromID="E5" fromText="nucleus" toID="E4" toText="its" relationship="part_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P3" fromID="E6" fromText="protons" toID="E5" toText="nucleus" relationship="part_of" negativity="positive" signal_list="S1" comment="" />
+<PART_OF id="P4" fromID="E7" fromText="iron" toID="E10" toText="ores" relationship="substance_of" negativity="positive" signal_list="S2,S3" comment="" />
+<PART_OF id="P5" fromID="E8" fromText="metals" toID="E10" toText="ores" relationship="substance_of" negativity="positive" signal_list="S2,S3" comment="" />
+<PART_OF id="P6" fromID="E10" fromText="ores" toID="E9" toText="their" relationship="substance_of" negativity="positive" signal_list="" comment="" />
+<PART_OF id="P7" fromID="E11" fromText="element" toID="E12" toText="Earth" relationship="substance_of" negativity="positive" signal_list="S4" comment="" />
+<PART_OF id="P8" fromID="E14" fromText="element" toID="E16" toText="crust" relationship="substance_of" negativity="positive" signal_list="S6" comment="chemical structure" />
+<PART_OF id="P9" fromID="E16" fromText="crust" toID="E15" toText="Earth" relationship="part_of" negativity="positive" signal_list="S5" comment="" />
+<PART_OF id="P10" fromID="E17" fromText="elements" toID="E18" toText="matter" relationship="substance_of" negativity="positive" signal_list="S7" comment="" />
+<PART_OF id="P11" fromID="E19" fromText="matter" toID="E20" toText="universe" relationship="substance_of" negativity="positive" signal_list="S8" comment="" />
+<PART_OF id="P12" fromID="E21" fromText="matter" toID="E19" toText="matter" relationship="substance_of" negativity="positive" signal_list="S9" comment="" />
+<PART_OF id="P13" fromID="E23" fromText="matter" toID="E19" toText="matter" relationship="substance_of" negativity="positive" signal_list="S10" comment="" />
+<PART_OF id="P14" fromID="E25" fromText="elements" toID="E24" toText="substance" relationship="part_of" negativity="negative" signal_list="S11" comment="" />
+<PART_OF id="P15" fromID="E27" fromText="protons" toID="E26" toText="it" relationship="part_of" negativity="negative" signal_list="S12" comment="" />
+<PART_OF id="P16" fromID="E28" fromText="neutrons" toID="E26" toText="it" relationship="part_of" negativity="negative" signal_list="S12" comment="" />
+<PART_OF id="P17" fromID="E29" fromText="electrons" toID="E26" toText="it" relationship="part_of" negativity="negative" signal_list="S12" comment="" />
+<PART_OF id="P18" fromID="E30" fromText="elements" toID="E31" toText="compound" relationship="part_of" negativity="positive" signal_list="S13" comment="" />
+<PART_OF id="P19" fromID="E34" fromText="elements" toID="E33" toText="compounds" relationship="part_of" negativity="positive" signal_list="S14" comment="" />
+<PART_OF id="P20" fromID="E37" fromText="samples" toID="E36" toText="crust" relationship="part_of" negativity="positive" signal_list="S16" comment="" />
+<PART_OF id="P21" fromID="E36" fromText="crust" toID="E35" toText="Earth" relationship="part_of" negativity="positive" signal_list="S15" comment="" />
+<PART_OF id="P22" fromID="E39" fromText="nitrogen" toID="E38" toText="air" relationship="part_of" negativity="positive" signal_list="S17" comment="" />
+<PART_OF id="P23" fromID="E40" fromText="oxygen" toID="E38" toText="air" relationship="part_of" negativity="positive" signal_list="S17" comment="" />
+<PART_OF id="P24" fromID="E41" fromText="argon" toID="E38" toText="air" relationship="part_of" negativity="positive" signal_list="S17" comment="" />
+<PART_OF id="P25" fromID="E2" fromText="oxygen" toID="E22" toText="Earth" relationship="substance_of" negativity="positive" signal_list="S18" comment="" />
+<PART_OF id="P26" fromID="E3" fromText="silicon" toID="E22" toText="Earth" relationship="substance_of" negativity="positive" signal_list="S18" comment="" />
+<PART_OF id="P27" fromID="E13" fromText="iron" toID="E22" toText="Earth" relationship="substance_of" negativity="positive" signal_list="S18" comment="" />
+<PART_OF id="P28" fromID="E32" fromText="iron" toID="E12" toText="Earth" relationship="substance_of" negativity="positive" signal_list="S4" comment="" />
+<PART_OF id="P29" fromID="E42" fromText="elements" toID="E43" toText="Earth" relationship="substance_of" negativity="positive" signal_list="S19" comment="" />
+<PART_OF id="P30" fromID="E44" fromText="elements" toID="E45" toText="Earth" relationship="substance_of" negativity="negative" signal_list="" comment="" />
+<SIGNAL id="S0" start="67" end="80" text="consisting of" />
+<SIGNAL id="S1" start="165" end="167" text="in" />
+<SIGNAL id="S2" start="1443" end="1452" text="extracted" />
+<SIGNAL id="S3" start="1491" end="1495" text="from" />
+<SIGNAL id="S4" start="2149" end="2158" text="making up" />
+<SIGNAL id="S5" start="2220" end="2222" text="'s" />
+<SIGNAL id="S6" start="2208" end="2210" text="in" />
+<SIGNAL id="S7" start="2271" end="2282" text="composed of" />
+<SIGNAL id="S8" start="2381" end="2383" text="in" />
+<SIGNAL id="S9" start="2341" end="2351" text="constitute" />
+<SIGNAL id="S10" start="2402" end="2411" text="remainder" />
+<SIGNAL id="S11" start="2478" end="2489" text="composed of" />
+<SIGNAL id="S12" start="2518" end="2523" text="lacks" />
+<SIGNAL id="S13" start="2601" end="2609" text="combined" />
+<SIGNAL id="S14" start="2899" end="2910" text="composed of" />
+<SIGNAL id="S15" start="3363" end="3365" text="'s" />
+<SIGNAL id="S16" start="3349" end="3353" text="from" />
+<SIGNAL id="S17" start="3912" end="3922" text="mixture of" />
+<SIGNAL id="S18" start="937" end="939" text="on" />
+<SIGNAL id="S19" start="4183" end="4188" text="occur" />
+<SIGNAL id="S20" start="4390" end="4402" text="do not occur" />
+</TAGS>
+</PartML>

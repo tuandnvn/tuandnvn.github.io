@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PartML>
+<TEXT><![CDATA[
+Emperor of Japan
+
+The Emperor of Japan is the ceremonial monarch in Japan's system of constitutional monarchy and is the head of the Japanese Imperial Family. According to Japan's 1947 constitution, which dissolved the Empire of Japan, he is "the symbol of the state and of the unity of the people." He is also the highest authority of the Shinto religion as his family and him are said to be direct descendants of Amaterasu.[1]
+The Emperor is called the Tennō (天皇) in Japanese, which means "heavenly sovereign". He is also referred to in English as the Mikado (帝) of Japan. Currently the Emperor of Japan is the only remaining monarch in the world reigning under the title of "Emperor".
+The Imperial House of Japan is the oldest continuing hereditary monarchy in the world.[2] In Nihon Shoki, a book of Japanese history finished in the eighth century, it is said that the Empire of Japan was founded in 660 BC by Emperor Jimmu. The current Emperor is Akihito, who has been on the Chrysanthemum Throne since his father the Showa Emperor (Hirohito) died in 1989.
+The role of the Emperor of Japan has, historically, alternated between a largely ceremonial symbolic role and that of an actual imperial ruler. Since the establishment of the first shogunate in 1192, the Emperors of Japan have rarely taken on a role as supreme battlefield commander, unlike many Western monarchs. Japanese Emperors have nearly always been controlled by external political forces, to varying degrees. In fact, from 1192 to 1867, the shoguns, or their shikken regents in Kamakura (1203–1333), were the de facto rulers of Japan, although they were nominally appointed by the Emperor. The Emperor was, officially, the embodiment of all sovereign power in the realm, from 1889 to 1947, under the Meiji Constitution (and de facto from the end of the shogunate in 1867). His current status as a figurehead dates from the 1947 Constitution, which dissolved the Empire of Japan.
+Since the mid-nineteenth century, the Imperial Palace has been called "Kyūjō" (宮城), then Kōkyo (皇居), and located on the former site of Edo Castle in the heart of Tokyo. Earlier Emperors resided in Kyoto for nearly eleven centuries.
+The Emperor's Birthday (currently celebrated on 23 December) is a national holiday.
+
+]]></TEXT>
+<TAGS>
+<ENTITY id="E0" start="58" end="65" text="monarch" type="physical" reference_count="single" comment="" />
+<ENTITY id="E1" start="77" end="83" text="system" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E2" start="122" end="126" text="head" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E3" start="152" end="158" text="Family" type="physical" reference_count="single" comment="" />
+<ENTITY id="E4" start="324" end="333" text="authority" type="abstract" reference_count="single" comment="" />
+<ENTITY id="E5" start="348" end="356" text="religion" type="abstract" reference_count="single" comment="" />
+<PART_OF id="P0" fromID="E0" fromText="monarch" toID="E1" toText="system" relationship="part_of" negativity="positive" signal_list="S0" comment="" />
+<PART_OF id="P1" fromID="E2" fromText="head" toID="E3" toText="Family" relationship="part_of" negativity="positive" signal_list="S1" comment="family as a structure, head as part of the structure+" />
+<PART_OF id="P2" fromID="E4" fromText="authority" toID="E5" toText="religion" relationship="part_of" negativity="positive" signal_list="S2" comment="" />
+<SIGNAL id="S0" start="66" end="68" text="in" />
+<SIGNAL id="S1" start="127" end="129" text="of" />
+<SIGNAL id="S2" start="334" end="336" text="of" />
+</TAGS>
+</PartML>
