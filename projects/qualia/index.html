@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0046)http://users.ecs.soton.ac.uk/ltt08r/index.html -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Tuan Do's personal webpage</title>
+    <!-- Bootstrap -->
+    <link href="../../css2/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+    figure {
+        display: inline-block;
+        border: 1px dotted gray;
+        margin: 20px;
+        /* adjust as needed */
+    }
+
+    figure img {
+        vertical-align: top;
+    }
+
+    figure figcaption {
+        border: 1px dotted blue;
+        text-align: center;
+    }
+    </style>
+</head>
+
+<body>
+    <!-- Insert your content here -->
+    <div class="container">
+        <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+            <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="../../index.html">Tuan Do Personal Website</a>
+            <div class="navbar-collapse collapse" id="navbarsExampleDefault" aria-expanded="false" style="">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../index.html">
+                            <font face="Georgia, Arial, Garamond">Home</font>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../bio.html">
+                            <font face="Georgia, Arial, Garamond">CV</font>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../research.html">
+                            <font face="Georgia, Arial, Garamond">Research</font>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../publications.html">
+                            <font face="Georgia, Arial, Garamond">Publications</font>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../teaching.html">
+                            <font face="Georgia, Arial, Garamond">Teaching</font>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="../../projects.html" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item" href="../../projects.html">Research</a>
+                            <a class="dropdown-item" href="../../projects-student.html">Student</a>
+                            <a class="dropdown-item" href="../../projects-other.html">Others</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../teaching.html">
+                            <font face="Georgia, Arial, Garamond">Blog</font>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div id="fix-for-navbar-fixed-top-spacing" style="height: 72px;">&nbsp;</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-2" style="padding-left: 0px;  padding-right: 0px;">
+                <!--Sidebar content-->
+                <img src="../../images/profile.jpg" class="img-fluid">
+            </div>
+            <div class="col-10">
+                <h3>Qualia annotation, classification and extraction</h3>
+                <hr>
+                <p>
+                </p>
+                <h4>Introduction</h4>
+                <hr>
+                <p align="justify">Qualia structure is an indispensable part of the theory of <a href="https://en.wikipedia.org/wiki/Generative_lexicon">Generative Lexicon</a> (GL). GL, itself, is a complex system allowing semantic compositionality of lexical items. In another sense, by allowing lexical items to take a semantic structure (rather than an atomic semantic unit), GL in general, and qualia structure in particular, allows semantic of lexical items to change accordingly to the context they are in. An example would demonstrate that</p>
+                <ul>
+                    <li>Mary enjoy a <i>cup</i> of coffee</li>
+                    <li>John bought a <i>cup</i> of coffee</li>
+                </ul>
+                <p align="justify">
+                    On the surface there is no difference between two instances of "cup of coffee", but semantically the first sentence command an implicit act of "drinking". Mary doesn't just enjoy the shape or the color of the cup, but she enjoy drinking it. This implicit sense of "drinking" is activated by the <i>telic quale</i> of an <i>artificial typed</i> object "cup". Here are the full list of qualia structure for a lexical item:
+                </p>
+                <ul>
+                    <li> <i>Formal</i>: the basic category of which distinguishes the meaning of a word within a larger domain. It is the default qualia activation. For example, in "John bought a <i>cup</i> of coffee", formal quale activates an explanation of the cup as a merchandise object.</li>
+                    <li> <i>Constitutive</i>: the relation between an object and its constituent parts. "I need to fill my pen", for example, activates this quale, as it refers to the pen's ink container.</li>
+                    <li> <i>Telic</i>: the purpose or function of the object, if there is one. This quale type is typically associated with an artificial object, though natural object can activate it as well. </li>
+                    <li> <i>Agentive</i>: the factors involved in the object’s origins or “coming into being”. For example, the quale involved in "John bakes a cake"</li>
+                </ul>
+                <figure>
+                    <img src="qualia.PNG" class="img-fluid">
+                    <figcaption>Qualia structure for chair described in first-order predicate logic</a>
+                    </figcaption>
+                </figure>
+                <br> Qualia structure is important in common sense reasoning. One important application is reasoning on "object's affordance", which is tantamount to answer "what you can do to an object" (what you can do to a chair? sit on it, lean on its back, break its legs etc.). However, there is not much literature going on how to find qualia structure for an object. Our lab is pioneering in developing theory of Qualia structure and starting with a framework for annotation by Pustejovsky et al. (2008) called Generative Lexicon Markup Language (GLML).
+                <br>
+                <br>
+                <h4>Task description</h4>
+                <hr>
+                <p align="justify">
+                    In this project, I started a number of practical studies on learning of qualia structure. The first part involved study of practicality of using GLML for a large scale annotation task. The second part involved automatic extraction of qualia relationship between noun and verbs using Wordnet definition.
+                </p>
+                <h5>Annotation</h5>
+                <hr>
+                <p align="justify">
+                    In this subtask, I annotated a small set of documents from TimeBank corpus, using GLML guidelines. I annotated qualia relation between verb and object for about 20 documents. The task turned out to be very difficult, even for experts, because of two reasons: firstly, "formal" is the dominant qualia relation, leading to a very unbalanced dataset and occurrences of other qualia types are very scarse; secondly, even for a simple case, it is sometimes unclear which quale has been activated, for example in the following example, both formal and agentive quales are activated, because a gift can be considered an object transferable from person to person (formal), and the act of giving actually <i>create</i> the gift itself (agentive).
+                </p>
+                <ul>
+                    <li>Use the enclosed card and give a generous gift to Goodwill today</li>
+                </ul>
+                <br>
+                <h5>Qualia discovery from gloss</h5>
+                <hr>
+                <p align="justify">
+                    Qualia discovery for lexical item is an interesting task, as it is typically a common subtask in <i>common sense reasoning</i>. The most interesting type of qualia relation is <i>telic</i>, so I used syntactic matching rules to extract "what an object is used for" from Wordnet synsets. Here are examples of Wordnet synsets:
+                </p>
+                <ul>
+                    <li><i>paint.n.01</i>: a substance used as a coating to protect or decorate a surface</li>
+                    <li><i>bed.n.01</i>: a piece of furniture that provides a place to sleep</li>
+                </ul>
+                <p align="justify">
+                Followings are the list of syntactic rule:
+                <ul>
+                    <li> for V-ing or S to V-inf </li>
+                    <li> that S V / that V </li>
+                    <li> 'used', 'intended', 'made', 'built', 'designed', ‘in order’ to V </li>
+                    <li> used in on V-ing </li>
+                    <li> NP is a NP to V-inf </li>
+                </ul>
+                <p align="justify">
+                Moreover, telic relation could be inherited from Wordnet hierarchy, for example: "clothes" - "to be worn" infers "hat" -> "to be worn".
+                </p>
+                <p align="justify">
+                This process, however, turned out to be very noisy. High quality patterns, such as "used to", are quite rare in Wordnet synset definitions. More frequent pattern, such as "NP is a NP to V-inf" doesn't have high precision.
+                </p>
+                </p>
+                <h4>Recent development</h4>
+                <p align="justify">
+                A recent paper shows that a combination of using distributed representation (word vector) and a set of seeding pairs of (object, verb) could be used to generate a prototype vector for telic verb. In short, it shows that by using an average subtracted vector of the seeding pairs, you can get a good translation vector from noun to the verbs that could be its telic verbs (citation).
+                </p>
+                <hr>
+                <h4>References</h4>
+                <ul>
+                    <li> Pustejovsky, James. "The generative lexicon." Computational linguistics 17.4 (1991): 409-441. </li>
+                    <li> Pustejovsky, J., Rumshisky, A., Moszkowicz, J. L., & Batiukova, O. (2008, September). GLML: A generative lexicon markup language. In Proceedings of the Generative Lexicon Workshop, Instituto di Linguistica Computazionale (CNR), Pisa, Italy. </li>
+                </ul>
+                <hr>
+                <h4>Resources</h4>
+                <hr>
+                <a href="https://github.com/tuandnvn/telic">Source code for telic extraction</a>
+                <br>
+                <a href="https://github.com/tuandnvn/QualiaClassification/tree/HEAD/src/data/dependency_masc_output">Annotated corpus</a>
+                <br>
+                <a href="glml.pdf">GLML: Generative lexicon markup language</a>
+                <br>
+                <a href="Qualia_classification.pptx">Brandeis's talk</a>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="../../css2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
