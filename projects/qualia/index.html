@@ -127,7 +127,7 @@
                 <h5>Qualia discovery from gloss</h5>
                 <hr>
                 <p align="justify">
-                    Qualia discovery for lexical item is an interesting task, as it is typically a common subtask in <i>common sense reasoning</i>. The most interesting type of qualia relation is <i>telic</i>, so I used syntactic matching rules to extract "what an object is used for" from Wordnet synsets. Here are examples of Wordnet synsets:
+                    Qualia discovery for lexical item is an interesting task, as it is typically a common subtask in <i>common sense reasoning</i>. The most interesting type of qualia relation is <i>telic</i>, so I used syntactic matching rules to extract "what an object is used for" from Wordnet synsets. Sentences are parsed using Stanford Core NLP, and matching on syntactic trees are carried out. Here are examples of Wordnet synsets:
                 </p>
                 <ul>
                     <li><i>paint.n.01</i>: a substance used as a coating to protect or decorate a surface</li>
@@ -136,28 +136,45 @@
                 <p align="justify">
                 Followings are the list of syntactic rule:
                 <ul>
-                    <li> for V-ing or S to V-inf </li>
-                    <li> that S V / that V </li>
-                    <li> 'used', 'intended', 'made', 'built', 'designed', ‘in order’ to V </li>
-                    <li> used in on V-ing </li>
-                    <li> NP is a NP to V-inf </li>
+                    <li> for V-ing or S to V-inf </li>: camera is equipment for taking photographs
+                    <li> that S V / that V </li>; abattoir is a building where animals are butchered
+                    <li> 'used', 'intended', 'made', 'built', 'designed', ‘in order’ to V </li>: anti-inflammatory is a medicine intended to reduce inflammation
+                    <li> used in/on V-ing </li>: weapon is any instrument or instrumentality used in fighting or hunting
+                    <li> NP is a NP to V-inf </li>: crown is a wreath or garland worn on the head to signify victory
                 </ul>
                 <p align="justify">
                 Moreover, telic relation could be inherited from Wordnet hierarchy, for example: "clothes" - "to be worn" infers "hat" -> "to be worn".
                 </p>
                 <p align="justify">
-                This process, however, turned out to be very noisy. High quality patterns, such as "used to", are quite rare in Wordnet synset definitions. More frequent pattern, such as "NP is a NP to V-inf" doesn't have high precision.
+                Telic verbs are found in 4779/11000 nouns. 3928 nouns are added to the result if resolution from hypernyms are used.
                 </p>
+                <h5>Existing problems</h5>
+                <hr>
+                <p align="justify">
+                This process, however, turned out to be quite noisy. High quality patterns, such as "used to", are quite rare in Wordnet synset definitions. More frequent pattern, such as "NP is a NP to V-inf" doesn't have high precision.
+                </p>
+                Parsing problems:
+                <ul>
+                    <li>Verbs and their objects in a conjunction need to be found. Example: A is something to B or C. C has conj_or dependency with B, no link to A.</li>
+                    <li>Noun phrases of the form: the probability of A, the level of B etc. We want to find the object of the telic verb to be the head noun of A and B, instead of ‘probability’ or ‘level’.</li>
+                </ul>
+                Inheritance problems: 
+                <ul>
+                    <li>Parsing mistakes higher up in the tree spoil the telic quality of its hyponyms</li>
+                    <li>Need to find additional links when inheriting the telic role. For example, A is drug for B. Let’s assume that drug has telic ‘treat illness’, A inherit that telic role, but it should be better to be ‘treat B’.</li>
+                    <li>The telic verbs of the hypernym might not really make sense for the hyponyms. Example: tourist_class.n.01, gloss = tourist_class is inexpensive accommodations on a ship or train. The telic role inherited from ‘accomodations’ is ‘to live’!</li>
+                </ul>
                 </p>
                 <h4>Recent development</h4>
                 <p align="justify">
-                A recent paper shows that a combination of using distributed representation (word vector) and a set of seeding pairs of (object, verb) could be used to generate a prototype vector for telic verb. In short, it shows that by using an average subtracted vector of the seeding pairs, you can get a good translation vector from noun to the verbs that could be its telic verbs (citation).
+                A recent paper shows that a combination of using distributed representation (word vector) and a set of seeding pairs of (object, verb) could be used to generate a prototype vector for telic verb. In short, it shows that by using an average subtracted vector of the seeding pairs, you can get a good translation vector from noun to the verbs that could be its telic verbs Fulda et. al (2017).
                 </p>
                 <hr>
                 <h4>References</h4>
                 <ul>
                     <li> Pustejovsky, James. "The generative lexicon." Computational linguistics 17.4 (1991): 409-441. </li>
                     <li> Pustejovsky, J., Rumshisky, A., Moszkowicz, J. L., & Batiukova, O. (2008, September). GLML: A generative lexicon markup language. In Proceedings of the Generative Lexicon Workshop, Instituto di Linguistica Computazionale (CNR), Pisa, Italy. </li>
+                    <li><a href="https://www.ijcai.org/proceedings/2017/0144.pdf"> Nancy Fulda, Daniel Ricks, Ben Murdoch, David Wingate (2017) What Can You Do with a Rock? Affordance Extraction via Word Embeddings. In Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence, {IJCAI-17}</a></li>
                 </ul>
                 <hr>
                 <h4>Resources</h4>
