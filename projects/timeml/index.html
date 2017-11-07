@@ -24,6 +24,12 @@
         border: 1px dotted blue;
         text-align: center;
     }
+
+    table,
+    th,
+    td {
+        border: 1px solid black;
+    }
     </style>
 </head>
 
@@ -116,8 +122,7 @@
                 <p align="justify">
                     All gold, silver and titanium data are parsed and stored as JSON parsed files by Stanford CoreNLP. Based on the current preprocessing module of tarsqi toolkit, but instead of using the code to tokenize and pos-tag, I directly use the result obtained from the JSON parsed files. Tokenized document with POS will be mixed with TIMEX3 and EVENT tags to create full document (applied for all documents in gold, silver, and test data).
                 </p>
-                <h5>Feature extraction</h5> 
-                Lemma features for all event and time:
+                <h5>Feature extraction</h5> Lemma features for all event and time:
                 <ul>
                     <li>
                         Event: class, aspect, modality, string (all tokens), tense, stem (verb or nouns tokens are stemmed).</li>
@@ -125,14 +130,14 @@
                         Time: string, type, mode, temporal function (already provided in tarsqi)</li>
                 </ul>
                 <p align="justify">
-                Moreover, tree features are extracted using syntactic tree: tree between two events or an event and a temporal expression in the same sentence - a subtree of the syntactical tree parsed by Stanford parser, including the path between the lowest common ancestor (LCA) node and two entity nodes. In addition, I also includes the first level of children of the ancestor node, which include some important information, such as comma , and quote ”. I don’t include the leaves of the tree (lemma and POS)). One more feature is the distance in number of tokens and the distance in number of nodes in the syntactical tree between two events.
+                    Moreover, tree features are extracted using syntactic tree: tree between two events or an event and a temporal expression in the same sentence - a subtree of the syntactical tree parsed by Stanford parser, including the path between the lowest common ancestor (LCA) node and two entity nodes. In addition, I also includes the first level of children of the ancestor node, which include some important information, such as comma , and quote ”. I don’t include the leaves of the tree (lemma and POS)). One more feature is the distance in number of tokens and the distance in number of nodes in the syntactical tree between two events.
                 </p>
                 <h5>Learning algorithm</h5>
                 <p align="justify">
-                Support Vector Machine (SVM) is a simple and effective classifier for many tasks. I used a one-to-one version of SVM for each type of TLINK (3 SVM classifiers for each type). Label with most number of votes is selected. 
+                    Support Vector Machine (SVM) is a simple and effective classifier for many tasks. I used a one-to-one version of SVM for each type of TLINK (3 SVM classifiers for each type). Label with most number of votes is selected.
                 </p>
                 <p align="justify">
-                Tree Kernel SVM is a type of SVM that has been used extensively in the NLP literature (Moschitti 2006). Advantages of using Tree Kernel SVM is that ones can employ Tree Kernel, a function that calculate similarity between two tree tructures. 
+                    Tree Kernel SVM is a type of SVM that has been used extensively in the NLP literature (Moschitti 2006). Advantages of using Tree Kernel SVM is that ones can employ Tree Kernel, a function that calculate similarity between two tree tructures.
                 </p>
                 <h5>Narrative ordering supplementary data</h5>
                 <p align="justify">
