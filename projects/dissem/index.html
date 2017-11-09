@@ -24,6 +24,12 @@
         border: 1px dotted blue;
         text-align: center;
     }
+
+    table,
+    th,
+    td {
+        border: 1px solid black;
+    }
     </style>
 </head>
 
@@ -85,41 +91,125 @@
                 <h3>Verb semantics analysis through distributed representations</h3>
                 <hr>
                 <p>
-                This project aimed to find a better linguistic event representation, which normally associates with syntactic structure of verbs. In this work, I proposed a modified model, called Skipgram Backward-Forward that utilizes thematic ordering of verb arguments to create distributed representation for verbs. This representation is then used to carry out a set of experiments, including analogy test, word disambiguation and antonyms-synonyms separation. This page would provide a summary of this project. Please refer to our paper to see more details.
+                This project aimed to find a better linguistic event representation, which normally associates with syntactic structure of verbs. In this work, I proposed a modified model, called Skipgram Backward-Forward that utilizes thematic ordering of verb arguments to create distributed representation for verbs. This representation is then used to carry out a set of experiments, including analogy test, word disambiguation and antonyms-synonyms separation. This page would provide a summary of this project. Please refer to my paper to see more details.
                 </p>
                 <h4>Introduction</h4>
                 <hr>
                 <p align="justify">
-                
+                Word sense disambiguation (WSD) and word sense induction (WSI) have been the focus of research in Natural Language Processing for several years. To this end, there have been many efforts to create a framework for sense inventory creation and sense-annotated corpora. Among the most notable recent approaches is Corpus Pattern Analysis CPA (Hanks and Pustejovsky, 2005).
                 </p>
                 <p align="justify">
-
+                Distributional semantic models (DSMs), based upon the assumption that words appearing in similar contexts are semantically related have proven to be a robust and inexpensive approach for a number of applications. Most successful is distributed method - such as Skip-gram (SG) model, proposed by Mikolov et al. (2013b).
                 </p>
-                <h4>Task description</h4>
-                <hr>
-                <h5>Analogy test</h5>
                 <p align="justify">
-
-                </p>
-                <h5>Word disambiguation in Corpus Pattern Analysis</h5>
-                <p align="justify">
-
-                </p>
-                <h5>Antonym-synonym separation</h5>
-                <p align="justify">
-
+                Motivated by the fact that the distribution of words before and after a verb typically correspond to its subject and complement collocations, respectively. Therefore, the context distribution before and after the verb are significantly different. A robust system applied for verb meaning needs to leverage this difference to achieve higher performance. Therefore, I proposed a modification version of SG model that takes into account this characteristic.
                 </p>
                 <h4>Implementation</h4>
                 <hr>
                 <h5></h5>
                 <p align="justify">
-
+                To implement SGBF, I modified the implementation from <i>gensim</i> CPython library. I trained it using a Wikipedia corpus POS-tagged by <b>spaCy library</b>. I only kept the 200,000 most frequent words in the vocabulary. My model learned vectors of 300 dimensions, with the initial learning rate set at 0.025. The maximum context window was set at 4. Following is the skipgram model, in comparsion with my Skipgram Backward forward model:
                 </p>
+                <figure>
+                    <img src="SGNS.png" width="200">
+                    <figcaption>Word-to-vec (W2V) model of context</a>
+                    </figcaption>
+                </figure>
+                <p align="justify">
+                </p>
+                <p align="justify">
+                </p>
+                <p align="justify">
+                <b>Notice</b>: Learning in the SG-NS-BF model targets matching the left component of the current word vector and the right component of the context word vector, if the context word appears before the current word and vice versa.
+                </p>
+                <figure>
+                    <img src="SGNS-BF.png" width="200">
+                    <figcaption>SG-BF model</a>
+                    </figcaption>
+                </figure>
+                <h4>Experiments and results</h4>
+                <hr>
+                <h5>Analogy test</h5>
+                <p align="justify">
+                Analogy test can be stated as following: given that <i>A king to a man</i> is analogous to <i>A queen to a woman</i>, a good vector representation for word should has the following characteristic: vector("King") - vector("Man") + vector("Woman") results in a vector that is closest to the vector representation of the word "Queen".
+                <table style="width:100%">
+                    <tr>
+                        <th>Category</th>
+                        <th>SG-NS (Word2Vec)</th>
+                        <th>SG-NS-BF</th>
+                    </tr>
+                    <tr>
+                        <td>gram-7-past-tense</td>
+                        <td>46%</td>
+                        <td><b>54%</b></td>
+                    </tr>
+                    <tr>
+                        <td>gram-9-plural-verbs </td>
+                        <td>61%</td>
+                        <td><b>83%</b></td>
+                    </tr>
+                    <tr>
+                        <td>antonym-verbs</td>
+                        <td>11%</td>
+                        <td><b>18%</b></td>
+                    </tr>
+                </table>
+                </p>
+                <h5>Word disambiguation in PDEV corpus</h5>
+                <p align="justify">
+                Word sense disambiguation has been a focus of researches in NLP. There are two main methods in compiling word senses lexicography resources.  One is a top-down approach such as Wordnet, dictating a set of senses for each word lemma; another one is building word senses as patterns of words extracted from a sample size corpus in a bottom-up manner, such as CPA framework
+                </p>
+                <p align="justify">
+                The <a href="http://pdev.org.uk/">PDEV corpus</a> is built upon the BNC, using the methodology of Corpus Pattern Analysis (CPA), first outlined in Pustejovsky et al. (2004), and then developed in Hanks and Pustejovsky (2005). Following is a snapshot of patterns for a verb "build":
+                <figure>
+                    <img src="PDEV_sample.png" class="img-fluid">
+                    <figcaption>PDEV patterns for verb "build"</a>
+                    </figcaption>
+                </figure>
+                </p>
+                <p align="justify">
+                In theory, it is an alternative disambiguation resource for verbs (comparing with other disambiguation resource), such as Babelnet. Its advantage is that verb senses are distinguished through corpus-derived syntagmatic patterns, with inclusion of a number of contextual features, such as minor category parsing, subphrasal cues, and a shallow semantic ontology. However, in practice, it is an underutilized resource.
+                </p>
+                <figure>
+                    <img src="Babelnet_sample.png" class="img-fluid">
+                    <figcaption>Babelnet senses for verb "build"</a>
+                    </figcaption>
+                </figure>
+                <p align="justify">
+                In this subtask, I used the word vector model SG-BF to create prototype vector for each pattern/sense of verbs. It was tested against a two algorithms Bootstrapping and Support vector machien of El Maarouf et al. (2014).
+                </p>
+                </p>
+                <table style="width:100%">
+                    <tr>
+                        <th></th>
+                        <th>Bootstrapping method</th>
+                        <th>Support Vector Machine</th>
+                        <th>SG-BF</th>
+                    </tr>
+                    <tr>
+                        <td>Average-Micro</td>
+                        <td>68%</td>
+                        <td><b>82%</b></td>
+                        <td>75%</td>
+                    </tr>
+                    <tr>
+                        <td>Average-Macro</td>
+                        <td>50%</td>
+                        <td>52%</td>
+                        <td><b>56%</b></td>
+                    </tr>
+                </table>
+                <p align="justify">
+                While SVD method beats our system in MicroAverage metric, SG-BF showed its strength in disambiguating skewed verbs (ones that have dominant pattern), reflecting by higher Macro-Average value.
+                </p>
+
                 <h4>References</h4>
                 <hr>
                 <ul>
-                    <li>  </li>
-                    <li>  </li>
+                    <li>http://radimrehurek.com/gensim/about.html</li>
+                    <li>https://honnibal.github.io/spaCy/index.html</li>
+                    <li> Patrick Hanks and James Pustejovsky. 2005. <i>A pattern dictionary for natural language processing. Revue Francaise de Linguistique Appliquee.</i> </li>
+                    <li> Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg Corrado, Jeffrey Dean <i>Distributed Representations of Words and Phrases and their Compositionality In Proceedings of NIPS 2013</i> El Maarouf, Ismail, et al. "Disambiguating Verbs by Collocation: Corpus Lexicography meets Natural Language Processing." LREC. 2014. </li>
                 </ul>
                 <hr>
                 <h4>Resources</h4>
