@@ -132,6 +132,11 @@
                 <p align="justify">
                     Moreover, tree features are extracted using syntactic tree: tree between two events or an event and a temporal expression in the same sentence - a subtree of the syntactical tree parsed by Stanford parser, including the path between the lowest common ancestor (LCA) node and two entity nodes. In addition, I also includes the first level of children of the ancestor node, which include some important information, such as comma , and quote ”. I don’t include the leaves of the tree (lemma and POS)). One more feature is the distance in number of tokens and the distance in number of nodes in the syntactical tree between two events.
                 </p>
+                <figure>
+                    <img src="example.png" width="200">
+                    <figcaption>A simple dependency tree of a sentence. I extracted a dependency sub-tree here with just two nodes and one edge npadmod. 
+                    </figcaption>
+                </figure>
                 <h5>Learning algorithm</h5>
                 <p align="justify">
                     Support Vector Machine (SVM) is a simple and effective classifier for many tasks. I used a one-to-one version of SVM for each type of TLINK (3 SVM classifiers for each type). Label with most number of votes is selected.
@@ -151,6 +156,10 @@
                     <li>𝑃(𝑙𝑒𝑚𝑚𝑎_𝑝𝑎𝑖𝑟 | 𝑎𝑏𝑒𝑙) is calculated from narrative ordering database</li>
                 </ul>
                 <h4>Evaluation</h4>
+                <hr>
+                <p align="justify">
+                    Evaluation is taken with 10-fold cross-validation method. This is to account for the fact that the size of data is pretty small. 
+                </p>
                 <hr>
                 <p align="justify">
                     To date, my implementation is still the start-of-the-art result for the task. Inclusion of narrative ordering didn't really improve performance of the system much, however.
