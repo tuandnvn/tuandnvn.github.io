@@ -60,16 +60,16 @@ image: /assets/img/profile-225.png
 #linkedin_username: lorepirri
 
 #  site:
-facebook:
-  publisher_id: 1474191545979552
-  profile_id: 1474191545979552
-  app_id: 126080721296732
-  authors: [1474191545979552]
-  #pixelcode: 1670622619859349
+# facebook:
+#   publisher_id: 1474191545979552
+#   profile_id: 1474191545979552
+#   app_id: 126080721296732
+#   authors: [1474191545979552]
+#   #pixelcode: 1670622619859349
 
 
 # github on site
-github: [metadata]
+# github: [metadata]
 
 
 # translation
